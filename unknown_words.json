@@ -1,0 +1,32 @@
+[
+  {
+    "id": 10,
+    "word": "accept",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 57,
+    "word": "agent",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 78,
+    "word": "album",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 79,
+    "word": "alcohol",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 80,
+    "word": "alcoholic",
+    "type": "adj.",
+    "level": "B1"
+  }
+]

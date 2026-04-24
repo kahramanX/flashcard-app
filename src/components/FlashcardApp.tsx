@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, BookmarkX } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck } from 'lucide-react';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
-// Utility for merging tailwind classes safely
 function cn(...inputs: (string | undefined | null | false)[]) {
   return twMerge(clsx(inputs));
 }
@@ -18,14 +17,17 @@ type Word = {
   level: string;
 };
 
-export default function FlashcardApp({ initialWords }: { initialWords: Word[] }) {
+export default function FlashcardApp({ initialWords, initialUnknownIds }: { initialWords: Word[], initialUnknownIds: number[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMarking, setIsMarking] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  
+  // Track unknown IDs in client state
+  const [unknownIds, setUnknownIds] = useState<Set<number>>(new Set(initialUnknownIds));
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
-    setTimeout(() => setToastMessage(null), 3000);
+    setTimeout(() => setToastMessage(null), 2500);
   };
 
   const handleNext = () => {
@@ -40,31 +42,40 @@ export default function FlashcardApp({ initialWords }: { initialWords: Word[] })
     }
   };
 
-  const handleMarkUnknown = async () => {
+  const handleToggleUnknown = async () => {
     if (initialWords.length === 0 || isMarking) return;
     setIsMarking(true);
     
     const word = initialWords[currentIndex];
+    // Optimistic toggle
+    const isCurrentlyUnknown = unknownIds.has(word.id);
+    
     try {
       const res = await fetch('/api/unknown', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(word),
       });
       const data = await res.json();
       
-      if (data.success && data.added) {
-        showToast(`"${word.word}" bilinmeyen kelimelere eklendi.`);
-      } else if (data.success && !data.added) {
-        showToast(`"${word.word}" zaten bilinmeyen listesinde mevcut.`);
+      if (data.success) {
+        setUnknownIds(prev => {
+          const next = new Set(prev);
+          if (data.status === 'added') {
+            next.add(word.id);
+            showToast(`"${word.word}" added to unknown words!`);
+          } else {
+            next.delete(word.id);
+            showToast(`"${word.word}" removed from list.`);
+          }
+          return next;
+        });
       } else {
-        showToast("Hata oluştu.");
+        showToast("An error occurred.");
       }
     } catch (e) {
       console.error("Failed to mark as unknown:", e);
-      showToast("Ağ hatası.");
+      showToast("Network error.");
     } finally {
       setIsMarking(false);
     }
@@ -80,9 +91,11 @@ export default function FlashcardApp({ initialWords }: { initialWords: Word[] })
   }
 
   const currentWord = initialWords[currentIndex];
-  // Calculate progress straightforwardly using index
   const remainingCount = initialWords.length - (currentIndex + 1);
   const progressPercentage = ((currentIndex + 1) / initialWords.length) * 100;
+  
+  // Check if current word is in our unknown list
+  const isUnknown = unknownIds.has(currentWord.id);
 
   return (
     <div className="w-full max-w-lg mx-auto flex flex-col items-center">
@@ -90,9 +103,9 @@ export default function FlashcardApp({ initialWords }: { initialWords: Word[] })
       <AnimatePresence>
         {toastMessage && (
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: -20, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -20, scale: 0.9 }}
             className="fixed top-8 px-6 py-3 rounded-full glass-panel border-blue-500/30 text-sm font-medium shadow-2xl z-50 flex items-center gap-2"
           >
             <span>{toastMessage}</span>
@@ -103,9 +116,9 @@ export default function FlashcardApp({ initialWords }: { initialWords: Word[] })
       {/* Header Info */}
       <div className="w-full mb-8 glass-panel rounded-2xl p-6 flex flex-col gap-4">
         <div className="flex justify-between items-center text-sm font-medium opacity-80 pb-3 border-b border-white/10">
-          <span>Toplam: <span className="font-bold text-white">{initialWords.length}</span></span>
+          <span>Total: <span className="font-bold text-white">{initialWords.length}</span></span>
           <span className="text-blue-400 font-semibold">{currentIndex + 1} / {initialWords.length}</span>
-          <span>Kalan: <span className="font-bold text-white">{remainingCount}</span></span>
+          <span>Remaining: <span className="font-bold text-white">{remainingCount}</span></span>
         </div>
         
         {/* Progress Bar */}
@@ -154,14 +167,34 @@ export default function FlashcardApp({ initialWords }: { initialWords: Word[] })
           <ChevronLeft className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
         </button>
 
-        <button
-          onClick={handleMarkUnknown}
+        {/* Animated Toggle Button */}
+        <motion.button
+          whileTap={{ scale: 0.95 }}
+          whileHover={{ scale: 1.02 }}
+          onClick={handleToggleUnknown}
           disabled={isMarking}
-          className="flex-1 py-4 px-6 rounded-2xl glass-panel bg-gradient-to-r from-rose-500/20 to-orange-500/20 hover:from-rose-500/30 hover:to-orange-500/30 border-rose-500/30 transition-all flex items-center justify-center gap-2 group shadow-lg shadow-rose-500/10 disabled:opacity-50"
+          className={cn(
+            "flex-1 py-4 px-6 rounded-2xl glass-panel transition-all flex items-center justify-center gap-2 group shadow-lg disabled:opacity-50",
+            isUnknown 
+              ? "bg-gradient-to-r from-emerald-500/20 to-teal-500/20 hover:from-emerald-500/30 hover:to-teal-500/30 border-emerald-500/30 shadow-emerald-500/10" 
+              : "bg-gradient-to-r from-rose-500/20 to-orange-500/20 hover:from-rose-500/30 hover:to-orange-500/30 border-rose-500/30 shadow-rose-500/10"
+          )}
         >
-          <BookmarkX className="w-5 h-5 group-hover:scale-110 transition-transform text-rose-300" />
-          <span className="font-semibold text-rose-100 whitespace-nowrap">Mark as Unknown</span>
-        </button>
+          <motion.div animate={{ rotate: isUnknown ? [0, -10, 10, 0] : 0 }} transition={{ duration: 0.4 }}>
+            {isUnknown ? (
+              <BookmarkCheck className="w-5 h-5 group-hover:scale-110 transition-transform text-emerald-300" />
+            ) : (
+              <BookmarkPlus className="w-5 h-5 group-hover:scale-110 transition-transform text-rose-300" />
+            )}
+          </motion.div>
+
+          <span className={cn(
+            "font-semibold whitespace-nowrap",
+            isUnknown ? "text-emerald-100" : "text-rose-100"
+          )}>
+            {isUnknown ? "Marked as Unknown" : "Mark as Unknown"}
+          </span>
+        </motion.button>
 
         <button
           onClick={handleNext}

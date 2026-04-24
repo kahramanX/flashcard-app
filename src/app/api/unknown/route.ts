@@ -15,12 +15,10 @@ export async function POST(req: Request) {
 
     const filePath = path.join(process.cwd(), 'unknown_words.json');
     
-    // Read the existing file
     let fileContents = '[]';
     try {
       fileContents = fs.readFileSync(filePath, 'utf8');
     } catch (e) {
-      // If file doesn't exist, ignore and use '[]'
       console.warn('unknown_words.json did not exist, initializing empty array.');
     }
 
@@ -29,18 +27,22 @@ export async function POST(req: Request) {
       unknownWords = JSON.parse(fileContents);
     } catch (e) {
       console.error('Error parsing unknown_words.json', e);
-      // fallback to empty array if corrupted
     }
 
-    // Check if the word is already marked as unknown to avoid duplicates
     const isAlreadyUnknown = unknownWords.some((w: any) => w.id === word.id);
     
-    if (!isAlreadyUnknown) {
+    if (isAlreadyUnknown) {
+      // Remove it
+      unknownWords = unknownWords.filter((w: any) => w.id !== word.id);
+      fs.writeFileSync(filePath, JSON.stringify(unknownWords, null, 2), 'utf8');
+      return NextResponse.json({ success: true, status: 'removed' }, { status: 200 });
+    } else {
+      // Add it
       unknownWords.push(word);
       fs.writeFileSync(filePath, JSON.stringify(unknownWords, null, 2), 'utf8');
+      return NextResponse.json({ success: true, status: 'added' }, { status: 200 });
     }
 
-    return NextResponse.json({ success: true, added: !isAlreadyUnknown }, { status: 200 });
   } catch (error) {
     console.error('API /api/unknown failed:', error);
     return NextResponse.json(

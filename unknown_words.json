@@ -1,32 +1,98 @@
 [
   {
-    "id": 10,
-    "word": "accept",
+    "id": 2,
+    "word": "abandon",
     "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 6,
+    "word": "above",
+    "type": "prep., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 14,
+    "word": "accompany",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 15,
+    "word": "according to",
+    "type": "prep.",
     "level": "A2"
   },
   {
-    "id": 57,
-    "word": "agent",
-    "type": "n.",
-    "level": "B1"
-  },
-  {
-    "id": 78,
-    "word": "album",
-    "type": "n.",
-    "level": "B1"
-  },
-  {
-    "id": 79,
-    "word": "alcohol",
-    "type": "n.",
-    "level": "B1"
-  },
-  {
-    "id": 80,
-    "word": "alcoholic",
+    "id": 17,
+    "word": "accurate",
     "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 18,
+    "word": "accuse",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 21,
+    "word": "acknowledge",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 22,
+    "word": "acquire",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 23,
+    "word": "across",
+    "type": "prep., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 29,
+    "word": "actress",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 39,
+    "word": "admire",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 40,
+    "word": "admit",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 41,
+    "word": "adopt",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 48,
+    "word": "advertisement",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 50,
+    "word": "advice",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 51,
+    "word": "advise",
+    "type": "v.",
     "level": "B1"
   }
 ]

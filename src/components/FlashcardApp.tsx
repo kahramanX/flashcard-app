@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Sun, Moon } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Sun, Moon, History } from 'lucide-react';
+import Link from 'next/link';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -20,6 +21,7 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMarking, setIsMarking] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [savedIndex, setSavedIndex] = useState<number | null>(null);
   
   // Track unknown IDs in client state
   const [unknownIds, setUnknownIds] = useState<Set<number>>(new Set(initialUnknownIds));
@@ -34,7 +36,33 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
       setIsDark(true);
       document.documentElement.classList.add('dark');
     }
+
+    // Load Last Viewed Index from JSON API
+    fetch('/api/progress')
+      .then(res => res.json())
+      .then(data => {
+        if (data && typeof data.currentIndex === 'number') {
+          setSavedIndex(data.currentIndex);
+        }
+      })
+      .catch(err => console.error('Failed to load progress', err));
   }, []);
+
+  // Save progress dynamically whenever currentIndex changes
+  useEffect(() => {
+    if (initialWords.length === 0) return;
+    
+    // Using a simple timeout to debounce saves and avoid spamming the local file
+    const timeout = setTimeout(() => {
+      fetch('/api/progress', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ currentIndex }),
+      }).catch(err => console.error('Failed to save progress', err));
+    }, 1000);
+
+    return () => clearTimeout(timeout);
+  }, [currentIndex, initialWords.length]);
 
   const toggleTheme = () => {
     if (isDark) {
@@ -63,6 +91,21 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
     if (currentIndex > 0) {
       setCurrentIndex(prev => prev - 1);
     }
+  };
+
+  const handleGoToLastViewed = () => {
+    if (savedIndex !== null && savedIndex >= 0 && savedIndex < initialWords.length) {
+      setCurrentIndex(savedIndex);
+      showToast(`Jumped to last viewed card (#${savedIndex + 1})`);
+    }
+  };
+
+  const handleProgressBarClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const percentage = clickX / rect.width;
+    const targetIndex = Math.floor(percentage * initialWords.length);
+    setCurrentIndex(Math.max(0, Math.min(targetIndex, initialWords.length - 1)));
   };
 
   const handleToggleUnknown = async () => {
@@ -121,14 +164,27 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   return (
     <div className="w-full max-w-lg mx-auto flex flex-col items-center relative min-h-[80vh]">
       
-      {/* Theme Toggle Button */}
-      <button 
-        onClick={toggleTheme}
-        className="absolute -top-12 right-0 p-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-gray-800 dark:text-gray-200 cursor-pointer"
-        aria-label="Toggle Dark Mode"
-      >
-        {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-      </button>
+      {/* Top Action Bar (Theme + Last Viewed) */}
+      <div className="absolute -top-12 right-0 flex gap-2">
+        {savedIndex !== null && savedIndex !== currentIndex && (
+          <button 
+            onClick={handleGoToLastViewed}
+            className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
+            title="Go to Last Viewed"
+          >
+            <History className="w-4 h-4" />
+            <span className="hidden sm:inline">Last Viewed: {savedIndex + 1}</span>
+          </button>
+        )}
+
+        <button 
+          onClick={toggleTheme}
+          className="p-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-gray-800 dark:text-gray-200 cursor-pointer"
+          aria-label="Toggle Dark Mode"
+        >
+          {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+        </button>
+      </div>
 
       {/* Toast Notification (Windows 10 Style flyout) */}
       {toastMessage && (
@@ -145,10 +201,14 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
           <span>Remaining: <span className="text-black dark:text-white">{remainingCount}</span></span>
         </div>
         
-        {/* Progress Bar */}
-        <div className="w-full h-1 bg-gray-200 dark:bg-zinc-700 rounded-none overflow-hidden">
+        {/* Clickable Progress Bar */}
+        <div 
+          className="w-full h-2 bg-gray-200 dark:bg-zinc-700 rounded-none overflow-hidden cursor-pointer hover:h-3 hover:bg-gray-300 dark:hover:bg-zinc-600 transition-all active:bg-gray-400 relative"
+          onClick={handleProgressBarClick}
+          title="Click to jump to a specific word"
+        >
           <div 
-            className="h-full bg-win-blue transition-all duration-200"
+            className="h-full bg-win-blue transition-all duration-200 pointer-events-none"
             style={{ width: `${progressPercentage}%` }}
           />
         </div>
@@ -215,6 +275,16 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
         >
           <ChevronRight className="w-5 h-5" />
         </button>
+      </div>
+
+      {/* View Unknown Words Link */}
+      <div className="w-full mt-6 text-center">
+        <Link 
+          href="/unknown"
+          className="inline-flex items-center justify-center py-2 px-6 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 transition-colors rounded-none text-gray-900 dark:text-white font-normal text-sm w-full md:w-auto"
+        >
+          View Unknown Words List
+        </Link>
       </div>
 
     </div>

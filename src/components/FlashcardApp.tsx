@@ -1,8 +1,7 @@
 "use client";
 
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Sun, Moon } from 'lucide-react';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -24,6 +23,30 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   
   // Track unknown IDs in client state
   const [unknownIds, setUnknownIds] = useState<Set<number>>(new Set(initialUnknownIds));
+
+  // Theme state
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    // Check initial theme preference
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      setIsDark(true);
+      document.documentElement.classList.add('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    if (isDark) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
+      setIsDark(false);
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+      setIsDark(true);
+    }
+  };
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
@@ -47,7 +70,6 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
     setIsMarking(true);
     
     const word = initialWords[currentIndex];
-    // Optimistic toggle
     const isCurrentlyUnknown = unknownIds.has(word.id);
     
     try {
@@ -83,9 +105,9 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
 
   if (initialWords.length === 0) {
     return (
-      <div className="glass-panel p-8 rounded-2xl text-center">
-        <h2 className="text-2xl font-bold mb-2">No Words Found</h2>
-        <p className="opacity-70">Please check your words.json file.</p>
+      <div className="bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-8 rounded-none text-center">
+        <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">No Words Found</h2>
+        <p className="text-gray-600 dark:text-gray-400">Please check your words.json file.</p>
       </div>
     );
   }
@@ -94,115 +116,104 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   const remainingCount = initialWords.length - (currentIndex + 1);
   const progressPercentage = ((currentIndex + 1) / initialWords.length) * 100;
   
-  // Check if current word is in our unknown list
   const isUnknown = unknownIds.has(currentWord.id);
 
   return (
-    <div className="w-full max-w-lg mx-auto flex flex-col items-center">
-      {/* Toast Notification */}
-      <AnimatePresence>
-        {toastMessage && (
-          <motion.div
-            initial={{ opacity: 0, y: -20, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: -20, scale: 0.9 }}
-            className="fixed top-8 px-6 py-3 rounded-full glass-panel border-blue-500/30 text-sm font-medium shadow-2xl z-50 flex items-center gap-2"
-          >
-            <span>{toastMessage}</span>
-          </motion.div>
-        )}
-      </AnimatePresence>
+    <div className="w-full max-w-lg mx-auto flex flex-col items-center relative min-h-[80vh]">
+      
+      {/* Theme Toggle Button */}
+      <button 
+        onClick={toggleTheme}
+        className="absolute -top-12 right-0 p-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-gray-800 dark:text-gray-200 cursor-pointer"
+        aria-label="Toggle Dark Mode"
+      >
+        {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+      </button>
+
+      {/* Toast Notification (Windows 10 Style flyout) */}
+      {toastMessage && (
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 bg-zinc-800 border-l-4 border-win-blue text-white px-4 py-3 shadow-none z-50 transition-opacity">
+          <p className="text-sm font-medium">{toastMessage}</p>
+        </div>
+      )}
 
       {/* Header Info */}
-      <div className="w-full mb-8 glass-panel rounded-2xl p-6 flex flex-col gap-4">
-        <div className="flex justify-between items-center text-sm font-medium opacity-80 pb-3 border-b border-white/10">
-          <span>Total: <span className="font-bold text-white">{initialWords.length}</span></span>
-          <span className="text-blue-400 font-semibold">{currentIndex + 1} / {initialWords.length}</span>
-          <span>Remaining: <span className="font-bold text-white">{remainingCount}</span></span>
+      <div className="w-full mb-6 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-4 flex flex-col gap-3 rounded-none shadow-none">
+        <div className="flex justify-between items-center text-sm font-semibold text-gray-700 dark:text-gray-300 pb-2 border-b border-gray-200 dark:border-zinc-700">
+          <span>Total: <span className="text-black dark:text-white">{initialWords.length}</span></span>
+          <span className="text-win-blue">{currentIndex + 1} / {initialWords.length}</span>
+          <span>Remaining: <span className="text-black dark:text-white">{remainingCount}</span></span>
         </div>
         
         {/* Progress Bar */}
-        <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-          <motion.div 
-            className="h-full bg-gradient-to-r from-blue-500 to-purple-500"
-            initial={{ width: 0 }}
-            animate={{ width: `${progressPercentage}%` }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
+        <div className="w-full h-1 bg-gray-200 dark:bg-zinc-700 rounded-none overflow-hidden">
+          <div 
+            className="h-full bg-win-blue transition-all duration-200"
+            style={{ width: `${progressPercentage}%` }}
           />
         </div>
       </div>
 
       {/* Static Single Card Area */}
-      <div className="relative w-full h-[320px] lg:h-[400px] mb-8 group">
-        <div className="absolute inset-0 glass-panel rounded-3xl flex flex-col items-center justify-center p-8 shadow-xl border-t border-l border-white/20 transition-transform group-hover:scale-[1.02]">
-          
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-white to-white/70 mb-10 text-center tracking-tight">
-            {currentWord.word}
-          </h1>
-          
-          <div className="flex flex-row flex-wrap items-center justify-center gap-4">
-            <span className="text-xl font-medium px-5 py-2 rounded-full bg-white/5 border border-white/10 shadow-sm">
-              {currentWord.type}
-            </span>
-            <span className={`text-xl font-bold px-5 py-2 rounded-full border shadow-sm ${
-                currentWord.level.includes('C') ? 'bg-red-500/10 border-red-500/30 text-red-300' 
-              : currentWord.level.includes('B') ? 'bg-orange-500/10 border-orange-500/30 text-orange-300' 
-              : 'bg-green-500/10 border-green-500/30 text-green-300'
-            }`}>
-              Level: {currentWord.level}
-            </span>
-          </div>
-
+      <div className="w-full min-h-[300px] mb-6 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-8 rounded-none shadow-none flex flex-col items-center justify-center transition-colors">
+        <h1 className="text-5xl md:text-6xl font-bold text-black dark:text-white mb-10 text-center tracking-normal">
+          {currentWord.word}
+        </h1>
+        
+        <div className="flex flex-row flex-wrap items-center justify-center gap-3">
+          <span className="text-lg font-semibold px-4 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-gray-800 dark:text-gray-200 rounded-none">
+            {currentWord.type}
+          </span>
+          <span className={cn(
+             "text-lg font-bold px-4 py-1 border rounded-none",
+             currentWord.level.includes('C') ? 'bg-red-50 dark:bg-red-900/30 border-red-300 dark:border-red-800 text-red-800 dark:text-red-300' 
+           : currentWord.level.includes('B') ? 'bg-orange-50 dark:bg-orange-900/30 border-orange-300 dark:border-orange-800 text-orange-800 dark:text-orange-300' 
+           : 'bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-800 dark:text-green-300'
+          )}>
+            Level: {currentWord.level}
+          </span>
         </div>
       </div>
 
       {/* Controls */}
-      <div className="flex w-full items-center justify-between gap-4">
+      <div className="flex w-full items-stretch justify-between gap-2 h-12">
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="p-4 rounded-full glass-panel flex-shrink-0 hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent transition-all flex items-center justify-center group"
+          className="w-12 h-full bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 disabled:opacity-50 disabled:hover:bg-gray-200 dark:disabled:hover:bg-zinc-800 transition-colors flex items-center justify-center rounded-none text-gray-900 dark:text-white shrink-0"
           aria-label="Previous Word"
         >
-          <ChevronLeft className="w-6 h-6 group-hover:-translate-x-1 transition-transform" />
+          <ChevronLeft className="w-5 h-5" />
         </button>
 
-        {/* Animated Toggle Button */}
-        <motion.button
-          whileTap={{ scale: 0.95 }}
-          whileHover={{ scale: 1.02 }}
+        {/* Toggle Button */}
+        <button
           onClick={handleToggleUnknown}
           disabled={isMarking}
           className={cn(
-            "flex-1 py-4 px-6 rounded-2xl glass-panel transition-all flex items-center justify-center gap-2 group shadow-lg disabled:opacity-50",
+            "flex-1 h-full px-6 transition-none flex items-center justify-center gap-2 disabled:opacity-50 font-normal border rounded-none shadow-none text-sm md:text-base focus:outline-none focus:ring-1 focus:ring-black dark:focus:ring-white",
             isUnknown 
-              ? "bg-gradient-to-r from-emerald-500/20 to-teal-500/20 hover:from-emerald-500/30 hover:to-teal-500/30 border-emerald-500/30 shadow-emerald-500/10" 
-              : "bg-gradient-to-r from-rose-500/20 to-orange-500/20 hover:from-rose-500/30 hover:to-orange-500/30 border-rose-500/30 shadow-rose-500/10"
+              ? "bg-[#CCCCCC] dark:bg-[#333333] border-transparent hover:bg-[#B3B3B3] dark:hover:bg-[#444444] text-black dark:text-white" 
+              : "bg-win-blue hover:bg-win-blue-hover border-transparent text-white"
           )}
         >
-          <motion.div animate={{ rotate: isUnknown ? [0, -10, 10, 0] : 0 }} transition={{ duration: 0.4 }}>
-            {isUnknown ? (
-              <BookmarkCheck className="w-5 h-5 group-hover:scale-110 transition-transform text-emerald-300" />
-            ) : (
-              <BookmarkPlus className="w-5 h-5 group-hover:scale-110 transition-transform text-rose-300" />
-            )}
-          </motion.div>
-
-          <span className={cn(
-            "font-semibold whitespace-nowrap",
-            isUnknown ? "text-emerald-100" : "text-rose-100"
-          )}>
+          {isUnknown ? (
+            <BookmarkCheck className="w-5 h-5" />
+          ) : (
+            <BookmarkPlus className="w-5 h-5" />
+          )}
+          <span>
             {isUnknown ? "Marked as Unknown" : "Mark as Unknown"}
           </span>
-        </motion.button>
+        </button>
 
         <button
           onClick={handleNext}
           disabled={currentIndex === initialWords.length - 1}
-          className="p-4 rounded-full glass-panel flex-shrink-0 hover:bg-white/10 disabled:opacity-30 disabled:hover:bg-transparent transition-all flex items-center justify-center group"
+          className="w-12 h-full bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 disabled:opacity-50 disabled:hover:bg-gray-200 dark:disabled:hover:bg-zinc-800 transition-colors flex items-center justify-center rounded-none text-gray-900 dark:text-white shrink-0"
           aria-label="Next Word"
         >
-          <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
+          <ChevronRight className="w-5 h-5" />
         </button>
       </div>
 

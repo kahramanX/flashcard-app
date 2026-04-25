@@ -277,11 +277,17 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
         </button>
       </div>
 
-      {/* View Unknown Words Link */}
-      <div className="w-full mt-6 text-center">
+      {/* Links Container */}
+      <div className="w-full mt-6 flex flex-col md:flex-row items-center justify-center gap-4">
+        <Link 
+          href="/levels"
+          className="inline-flex items-center justify-center py-2 px-6 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 transition-none rounded-none text-gray-900 dark:text-white font-normal text-sm w-full md:w-auto"
+        >
+          View All Words by Level
+        </Link>
         <Link 
           href="/unknown"
-          className="inline-flex items-center justify-center py-2 px-6 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 transition-colors rounded-none text-gray-900 dark:text-white font-normal text-sm w-full md:w-auto"
+          className="inline-flex items-center justify-center py-2 px-6 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 transition-none rounded-none text-gray-900 dark:text-white font-normal text-sm w-full md:w-auto"
         >
           View Unknown Words List
         </Link>

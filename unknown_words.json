@@ -72,12 +72,6 @@
     "level": "B1"
   },
   {
-    "id": 41,
-    "word": "adopt",
-    "type": "v.",
-    "level": "B2"
-  },
-  {
     "id": 48,
     "word": "advertisement",
     "type": "n.",
@@ -94,5 +88,425 @@
     "word": "advise",
     "type": "v.",
     "level": "B1"
+  },
+  {
+    "id": 54,
+    "word": "afford",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 57,
+    "word": "afternoon",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 58,
+    "word": "afterward",
+    "type": "adv.",
+    "level": "B2"
+  },
+  {
+    "id": 75,
+    "word": "airline",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 74,
+    "word": "aircraft",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 90,
+    "word": "alter",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 92,
+    "word": "although",
+    "type": "conj.",
+    "level": "A2"
+  },
+  {
+    "id": 94,
+    "word": "amazed",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 96,
+    "word": "ambition",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 97,
+    "word": "among",
+    "type": "prep.",
+    "level": "A2"
+  },
+  {
+    "id": 98,
+    "word": "amount",
+    "type": "n. A2, v.",
+    "level": "B2"
+  },
+  {
+    "id": 104,
+    "word": "angle",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 107,
+    "word": "ankle",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 108,
+    "word": "anniversary",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 111,
+    "word": "annoy",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 112,
+    "word": "annoyed",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 113,
+    "word": "annoying",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 120,
+    "word": "anymore",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 121,
+    "word": "anyone",
+    "type": "pron.",
+    "level": "A1"
+  },
+  {
+    "id": 122,
+    "word": "anything",
+    "type": "pron.",
+    "level": "A1"
+  },
+  {
+    "id": 129,
+    "word": "apparent",
+    "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 130,
+    "word": "apparently",
+    "type": "adv.",
+    "level": "B2"
+  },
+  {
+    "id": 131,
+    "word": "appeal",
+    "type": "n., v.",
+    "level": "B2"
+  },
+  {
+    "id": 132,
+    "word": "appear",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 133,
+    "word": "appearance",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 137,
+    "word": "appointment",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 139,
+    "word": "approach",
+    "type": "n., v.",
+    "level": "B2"
+  },
+  {
+    "id": 140,
+    "word": "appropriate",
+    "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 143,
+    "word": "approximately",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 150,
+    "word": "arise",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 156,
+    "word": "arrange",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 157,
+    "word": "arrangement",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 155,
+    "word": "around",
+    "type": "prep., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 158,
+    "word": "arrest",
+    "type": "v., n.",
+    "level": "B1"
+  },
+  {
+    "id": 159,
+    "word": "arrival",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 160,
+    "word": "arrive",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 163,
+    "word": "artificial",
+    "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 167,
+    "word": "ashamed",
+    "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 168,
+    "word": "aside",
+    "type": "adv.",
+    "level": "B2"
+  },
+  {
+    "id": 170,
+    "word": "asleep",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 171,
+    "word": "aspect",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 172,
+    "word": "assess",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 173,
+    "word": "assessment",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 175,
+    "word": "assist",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 176,
+    "word": "assistant",
+    "type": "n., adj.",
+    "level": "A2"
+  },
+  {
+    "id": 177,
+    "word": "associate",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 178,
+    "word": "associated",
+    "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 179,
+    "word": "association",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 180,
+    "word": "assume",
+    "type": "v.",
+    "level": "B2"
+  },
+  {
+    "id": 186,
+    "word": "attempt",
+    "type": "n., v.",
+    "level": "B2"
+  },
+  {
+    "id": 187,
+    "word": "attend",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 188,
+    "word": "attention",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 189,
+    "word": "attitude",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 190,
+    "word": "attorney",
+    "type": "n.",
+    "level": "B2"
+  },
+  {
+    "id": 194,
+    "word": "audience",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 222,
+    "word": "band",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 232,
+    "word": "basis",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 240,
+    "word": "bean",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 247,
+    "word": "become",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 254,
+    "word": "begin",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 256,
+    "word": "behave",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 257,
+    "word": "behavior",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 260,
+    "word": "belief",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 263,
+    "word": "belong",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 264,
+    "word": "below",
+    "type": "adv., prep.",
+    "level": "A1"
+  },
+  {
+    "id": 265,
+    "word": "belt",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 266,
+    "word": "bend",
+    "type": "v., n.",
+    "level": "B1"
+  },
+  {
+    "id": 267,
+    "word": "benefit",
+    "type": "n. A2, v.",
+    "level": "B1"
+  },
+  {
+    "id": 268,
+    "word": "bent",
+    "type": "adj.",
+    "level": "B2"
+  },
+  {
+    "id": 273,
+    "word": "beyond",
+    "type": "prep., adv.",
+    "level": "B2"
   }
 ]

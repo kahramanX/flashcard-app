@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Sun, Moon, History } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Sun, Moon, History, Save } from 'lucide-react';
 import Link from 'next/link';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -48,21 +48,20 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
       .catch(err => console.error('Failed to load progress', err));
   }, []);
 
-  // Save progress dynamically whenever currentIndex changes
-  useEffect(() => {
-    if (initialWords.length === 0) return;
-    
-    // Using a simple timeout to debounce saves and avoid spamming the local file
-    const timeout = setTimeout(() => {
-      fetch('/api/progress', {
+  const handleSaveProgress = async () => {
+    try {
+      await fetch('/api/progress', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ currentIndex }),
-      }).catch(err => console.error('Failed to save progress', err));
-    }, 1000);
-
-    return () => clearTimeout(timeout);
-  }, [currentIndex, initialWords.length]);
+      });
+      setSavedIndex(currentIndex);
+      showToast(`Position saved at card #${currentIndex + 1}`);
+    } catch (err) {
+      console.error('Failed to save progress', err);
+      showToast("Error saving progress.");
+    }
+  };
 
   const toggleTheme = () => {
     if (isDark) {
@@ -165,15 +164,27 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
     <div className="w-full max-w-lg mx-auto flex flex-col items-center relative min-h-[80vh]">
       
       {/* Top Action Bar (Theme + Last Viewed) */}
-      <div className="absolute -top-12 right-0 flex gap-2">
+      <div className="absolute -top-12 right-0 flex gap-2 items-center">
+        <button 
+          onClick={handleSaveProgress}
+          className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
+          title="Save this card as Last Viewed"
+        >
+          <Save className="w-4 h-4" />
+          <span className="hidden sm:inline">Set as Last Viewed</span>
+        </button>
+
         {savedIndex !== null && savedIndex !== currentIndex && (
           <button 
-            onClick={handleGoToLastViewed}
+            onClick={() => {
+              setCurrentIndex(savedIndex);
+              showToast(`Jumped to saved card (#${savedIndex + 1})`);
+            }}
             className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
-            title="Go to Last Viewed"
+            title="Go to Saved Position"
           >
             <History className="w-4 h-4" />
-            <span className="hidden sm:inline">Last Viewed: {savedIndex + 1}</span>
+            <span className="hidden sm:inline">Resume: {savedIndex + 1}</span>
           </button>
         )}
 

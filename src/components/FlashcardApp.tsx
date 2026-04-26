@@ -30,11 +30,15 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // Check initial theme preference
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      setIsDark(true);
-      document.documentElement.classList.add('dark');
+    try {
+      // Check initial theme preference
+      const storedTheme = localStorage.getItem('theme');
+      if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        setIsDark(true);
+        document.documentElement.classList.add('dark');
+      }
+    } catch (e) {
+      console.warn("localStorage access denied", e);
     }
 
     // Load Last Viewed Index from JSON API
@@ -64,14 +68,19 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   };
 
   const toggleTheme = () => {
-    if (isDark) {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-      setIsDark(false);
-    } else {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-      setIsDark(true);
+    try {
+      if (isDark) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+        setIsDark(false);
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+        setIsDark(true);
+      }
+    } catch (e) {
+      console.warn("localStorage access denied", e);
+      setIsDark(!isDark); // Still toggle state visually if localStorage fails
     }
   };
 

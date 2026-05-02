@@ -8,7 +8,7 @@ export default async function WordsByLevelPage() {
   try {
     const filePath = path.join(process.cwd(), 'words.json');
     if (fs.existsSync(filePath)) {
-      const fileContents = fs.readFileSync(filePath, 'utf8');
+      const fileContents = await fs.promises.readFile(filePath, 'utf8');
       allWords = JSON.parse(fileContents);
     }
   } catch (error) {
@@ -19,7 +19,7 @@ export default async function WordsByLevelPage() {
   try {
     const unknownPath = path.join(process.cwd(), 'unknown_words.json');
     if (fs.existsSync(unknownPath)) {
-      const unknownContents = fs.readFileSync(unknownPath, 'utf8');
+      const unknownContents = await fs.promises.readFile(unknownPath, 'utf8');
       const unknownWords = JSON.parse(unknownContents);
       unknownWords.forEach((w: any) => unknownIds.add(w.id));
     }

@@ -96,12 +96,6 @@
     "level": "B1"
   },
   {
-    "id": 57,
-    "word": "afternoon",
-    "type": "n.",
-    "level": "A1"
-  },
-  {
     "id": 58,
     "word": "afterward",
     "type": "adv.",
@@ -354,12 +348,6 @@
     "level": "B1"
   },
   {
-    "id": 176,
-    "word": "assistant",
-    "type": "n., adj.",
-    "level": "A2"
-  },
-  {
     "id": 177,
     "word": "associate",
     "type": "v.",
@@ -536,5 +524,2429 @@
   {
     "word": "test",
     "id": 9999
+  },
+  {
+    "id": 306,
+    "word": "bored",
+    "type": "adj.",
+    "level": "A1"
+  },
+  {
+    "id": 307,
+    "word": "boring",
+    "type": "adj.",
+    "level": "A1"
+  },
+  {
+    "id": 393,
+    "word": "carrot",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 394,
+    "word": "carry",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 484,
+    "word": "coat",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 534,
+    "word": "concert",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 595,
+    "word": "cost",
+    "type": "n., v.",
+    "level": "A1"
+  },
+  {
+    "id": 598,
+    "word": "could modal",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 707,
+    "word": "describe",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 730,
+    "word": "dialogue",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 760,
+    "word": "discuss",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 763,
+    "word": "dish",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 813,
+    "word": "during",
+    "type": "prep.",
+    "level": "A1"
+  },
+  {
+    "id": 919,
+    "word": "evening",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 945,
+    "word": "exercise",
+    "type": "n., v.",
+    "level": "A1"
+  },
+  {
+    "id": 981,
+    "word": "fact",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1024,
+    "word": "few",
+    "type": "det./adj., pron.",
+    "level": "A1"
+  },
+  {
+    "id": 1062,
+    "word": "floor",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1075,
+    "word": "food",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1076,
+    "word": "foot",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1211,
+    "word": "happen",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 1290,
+    "word": "however",
+    "type": "adv.",
+    "level": "A1"
+  },
+  {
+    "id": 1403,
+    "word": "introduce",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 1480,
+    "word": "late",
+    "type": "adj., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 1561,
+    "word": "lot",
+    "type": "pron., det., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 1574,
+    "word": "magazine",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1621,
+    "word": "meat",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1626,
+    "word": "meet",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 1637,
+    "word": "meter",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1640,
+    "word": "midnight",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1738,
+    "word": "next to",
+    "type": "prep.",
+    "level": "A1"
+  },
+  {
+    "id": 1818,
+    "word": "opposite",
+    "type": "adj., adv., prep., n.",
+    "level": "A1"
+  },
+  {
+    "id": 1846,
+    "word": "over",
+    "type": "prep., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 1897,
+    "word": "pepper",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 1925,
+    "word": "phrase",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2102,
+    "word": "quite",
+    "type": "adv.",
+    "level": "A1"
+  },
+  {
+    "id": 2099,
+    "word": "quiet",
+    "type": "adj.",
+    "level": "A1"
+  },
+  {
+    "id": 2237,
+    "word": "river",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2416,
+    "word": "situation",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2476,
+    "word": "soup",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2490,
+    "word": "spell",
+    "type": "v.",
+    "level": "A1"
+  },
+  {
+    "id": 2491,
+    "word": "spelling",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2519,
+    "word": "statement",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2606,
+    "word": "sweater",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2662,
+    "word": "theater",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2681,
+    "word": "thirsty",
+    "type": "adj.",
+    "level": "A1"
+  },
+  {
+    "id": 2692,
+    "word": "through",
+    "type": "prep., adv.",
+    "level": "A1"
+  },
+  {
+    "id": 2834,
+    "word": "vacation",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 2871,
+    "word": "waiter",
+    "type": "n.",
+    "level": "A1"
+  },
+  {
+    "id": 3,
+    "word": "ability",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 4,
+    "word": "able",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 45,
+    "word": "advantage",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 53,
+    "word": "affect",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 60,
+    "word": "against",
+    "type": "prep.",
+    "level": "A2"
+  },
+  {
+    "id": 85,
+    "word": "almost",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 101,
+    "word": "ancient",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 203,
+    "word": "avoid",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 334,
+    "word": "brilliant",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 371,
+    "word": "campus",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 392,
+    "word": "carpet",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 402,
+    "word": "cause",
+    "type": "n., v.",
+    "level": "A2"
+  },
+  {
+    "id": 405,
+    "word": "celebrate",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 407,
+    "word": "celebrity",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 412,
+    "word": "century",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 414,
+    "word": "certain",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 415,
+    "word": "certainly",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 428,
+    "word": "charity",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 464,
+    "word": "clearly",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 465,
+    "word": "clerk",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 469,
+    "word": "climate",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 474,
+    "word": "closet",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 483,
+    "word": "coast",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 518,
+    "word": "compete",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 522,
+    "word": "complain",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 554,
+    "word": "consider",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 570,
+    "word": "context",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 571,
+    "word": "continent",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 594,
+    "word": "correctly",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 631,
+    "word": "crowd",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 630,
+    "word": "cross",
+    "type": "v., n.",
+    "level": "A2"
+  },
+  {
+    "id": 632,
+    "word": "crowded",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 701,
+    "word": "department",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 703,
+    "word": "depend",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 732,
+    "word": "diary",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 752,
+    "word": "disappear",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 755,
+    "word": "disaster",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 762,
+    "word": "disease",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 769,
+    "word": "distance",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 790,
+    "word": "downstairs",
+    "type": "adv. A1, adj.",
+    "level": "A2"
+  },
+  {
+    "id": 791,
+    "word": "downtown",
+    "type": "adv., n., adj.",
+    "level": "A2"
+  },
+  {
+    "id": 847,
+    "word": "either",
+    "type": "det./pron., adv.",
+    "level": "A2"
+  },
+  {
+    "id": 870,
+    "word": "employ",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 871,
+    "word": "employee",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 872,
+    "word": "employer",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 889,
+    "word": "enormous",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 910,
+    "word": "essay",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 929,
+    "word": "evidence",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 931,
+    "word": "exact",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 932,
+    "word": "exactly",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 970,
+    "word": "expression",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 969,
+    "word": "express",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 977,
+    "word": "extremely",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 984,
+    "word": "fail",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 986,
+    "word": "fair",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1023,
+    "word": "fever",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1066,
+    "word": "flu",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1080,
+    "word": "foreign",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1085,
+    "word": "fork",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1087,
+    "word": "formal",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1089,
+    "word": "fortunately",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1183,
+    "word": "grass",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1188,
+    "word": "greet",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 1190,
+    "word": "ground",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1189,
+    "word": "grocery",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1204,
+    "word": "habit",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1207,
+    "word": "hall",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1225,
+    "word": "headache",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1257,
+    "word": "hill",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1312,
+    "word": "ill",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1314,
+    "word": "illness",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1322,
+    "word": "immediately",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1342,
+    "word": "included",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1343,
+    "word": "including",
+    "type": "prep.",
+    "level": "A2"
+  },
+  {
+    "id": 1350,
+    "word": "independent",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1361,
+    "word": "informal",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1369,
+    "word": "injury",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1373,
+    "word": "insect",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1383,
+    "word": "instruction",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1384,
+    "word": "instructor",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1405,
+    "word": "invent",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 1406,
+    "word": "invention",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1413,
+    "word": "involve",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 1424,
+    "word": "jam",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1453,
+    "word": "kilometer",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1459,
+    "word": "knee",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1481,
+    "word": "later",
+    "type": "adv. A1, adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1500,
+    "word": "least",
+    "type": "det./pron., adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1503,
+    "word": "lecture",
+    "type": "n., v.",
+    "level": "A2"
+  },
+  {
+    "id": 1509,
+    "word": "lend",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 1511,
+    "word": "less",
+    "type": "det./pron., adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1527,
+    "word": "likely",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1589,
+    "word": "manner",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1612,
+    "word": "mayor",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1717,
+    "word": "nearly",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1720,
+    "word": "necessary",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1749,
+    "word": "noisy",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1748,
+    "word": "noise",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1765,
+    "word": "nowhere",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1808,
+    "word": "onto",
+    "type": "prep.",
+    "level": "A2"
+  },
+  {
+    "id": 1815,
+    "word": "opportunity",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1824,
+    "word": "ordinary",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1837,
+    "word": "ourselves",
+    "type": "pron.",
+    "level": "A2"
+  },
+  {
+    "id": 1845,
+    "word": "oven",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1875,
+    "word": "particular",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1903,
+    "word": "perform",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 1905,
+    "word": "perhaps",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 1947,
+    "word": "plate",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1953,
+    "word": "pleased",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 1973,
+    "word": "pollution",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 1986,
+    "word": "possession",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2022,
+    "word": "prevent",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2085,
+    "word": "purpose",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2100,
+    "word": "quietly",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 2109,
+    "word": "railroad",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2117,
+    "word": "rather",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 2137,
+    "word": "recently",
+    "type": "adv.",
+    "level": "A2"
+  },
+  {
+    "id": 2136,
+    "word": "recent",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2138,
+    "word": "reception",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2139,
+    "word": "recipe",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2140,
+    "word": "recognize",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2141,
+    "word": "recommend",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2150,
+    "word": "refer",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2153,
+    "word": "refrigerator",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2257,
+    "word": "rude",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2269,
+    "word": "sailing",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2318,
+    "word": "seem",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2338,
+    "word": "serve",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2363,
+    "word": "sheet",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2348,
+    "word": "several",
+    "type": "det./pron.",
+    "level": "A2"
+  },
+  {
+    "id": 2383,
+    "word": "shout",
+    "type": "v., n.",
+    "level": "A2"
+  },
+  {
+    "id": 2415,
+    "word": "site",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2421,
+    "word": "ski",
+    "type": "v., n.",
+    "level": "A2"
+  },
+  {
+    "id": 2422,
+    "word": "skiing",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2468,
+    "word": "somewhere",
+    "type": "adv., pron.",
+    "level": "A2"
+  },
+  {
+    "id": 2501,
+    "word": "spoon",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2511,
+    "word": "stair",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2512,
+    "word": "stamp",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2542,
+    "word": "stove",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2537,
+    "word": "stone",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2540,
+    "word": "storm",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2568,
+    "word": "subway",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2667,
+    "word": "themselves",
+    "type": "pron.",
+    "level": "A2"
+  },
+  {
+    "id": 2674,
+    "word": "thick",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2592,
+    "word": "suppose",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2676,
+    "word": "thin",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2686,
+    "word": "thought",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2698,
+    "word": "tie",
+    "type": "v., n.",
+    "level": "A2"
+  },
+  {
+    "id": 2694,
+    "word": "throw",
+    "type": "v.",
+    "level": "A2"
+  },
+  {
+    "id": 2730,
+    "word": "toward",
+    "type": "prep.",
+    "level": "A2"
+  },
+  {
+    "id": 2731,
+    "word": "towel",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2749,
+    "word": "transportation",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2781,
+    "word": "typical",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2791,
+    "word": "underground",
+    "type": "adj., adv.",
+    "level": "A2"
+  },
+  {
+    "id": 2804,
+    "word": "unit",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2805,
+    "word": "united",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2821,
+    "word": "upstairs",
+    "type": "adv. A1, adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2835,
+    "word": "valley",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2839,
+    "word": "variety",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2924,
+    "word": "whose",
+    "type": "det./pron.",
+    "level": "A2"
+  },
+  {
+    "id": 2960,
+    "word": "worried",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 2951,
+    "word": "wood",
+    "type": "n.",
+    "level": "A2"
+  },
+  {
+    "id": 2952,
+    "word": "wooden",
+    "type": "adj.",
+    "level": "A2"
+  },
+  {
+    "id": 70,
+    "word": "ahead",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 109,
+    "word": "announce",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 138,
+    "word": "appreciate",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 174,
+    "word": "assignment",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 191,
+    "word": "attract",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 192,
+    "word": "attraction",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 204,
+    "word": "award",
+    "type": "n. A2, v.",
+    "level": "B1"
+  },
+  {
+    "id": 320,
+    "word": "branch",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 327,
+    "word": "breath",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 328,
+    "word": "breathe",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 329,
+    "word": "breathing",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 330,
+    "word": "bride",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 349,
+    "word": "bury",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 376,
+    "word": "candidate",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 391,
+    "word": "careless",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 404,
+    "word": "ceiling",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 406,
+    "word": "celebration",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 424,
+    "word": "chapter",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 434,
+    "word": "cheerful",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 443,
+    "word": "childhood",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 461,
+    "word": "clause",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 466,
+    "word": "clever",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 480,
+    "word": "clue",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 482,
+    "word": "coal",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 498,
+    "word": "combine",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 521,
+    "word": "competitor",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 523,
+    "word": "complaint",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 529,
+    "word": "concentrate",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 535,
+    "word": "conclude",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 536,
+    "word": "conclusion",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 541,
+    "word": "confident",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 544,
+    "word": "confuse",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 552,
+    "word": "consequence",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 556,
+    "word": "consist",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 562,
+    "word": "consume",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 563,
+    "word": "consumer",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 573,
+    "word": "continuous",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 579,
+    "word": "convenient",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 582,
+    "word": "convince",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 597,
+    "word": "cotton",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 602,
+    "word": "countryside",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 607,
+    "word": "court",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 609,
+    "word": "cover",
+    "type": "v. A2, n.",
+    "level": "B1"
+  },
+  {
+    "id": 610,
+    "word": "covered",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 634,
+    "word": "cruel",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 639,
+    "word": "cupboard",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 645,
+    "word": "curtain",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 671,
+    "word": "decade",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 686,
+    "word": "define",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 687,
+    "word": "definite",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 689,
+    "word": "definition",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 702,
+    "word": "departure",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 716,
+    "word": "despite",
+    "type": "prep.",
+    "level": "B1"
+  },
+  {
+    "id": 718,
+    "word": "destination",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 724,
+    "word": "determine",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 725,
+    "word": "determined",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 753,
+    "word": "disappointed",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 754,
+    "word": "disappointing",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 750,
+    "word": "disadvantage",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 766,
+    "word": "dislike",
+    "type": "v., n.",
+    "level": "B1"
+  },
+  {
+    "id": 772,
+    "word": "district",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 787,
+    "word": "doubt",
+    "type": "n., v.",
+    "level": "B1"
+  },
+  {
+    "id": 815,
+    "word": "duty",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 814,
+    "word": "dust",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 812,
+    "word": "due",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 809,
+    "word": "drum",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 839,
+    "word": "effective",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 862,
+    "word": "embarrassed",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 863,
+    "word": "embarrassing",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 877,
+    "word": "encourage",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 883,
+    "word": "engaged",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 905,
+    "word": "equally",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 911,
+    "word": "essential",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 921,
+    "word": "eventually",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 935,
+    "word": "examine",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 947,
+    "word": "exhibition",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 987,
+    "word": "fairly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 991,
+    "word": "familiar",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 995,
+    "word": "fancy",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 997,
+    "word": "far",
+    "type": "adv. A1, adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1000,
+    "word": "fascinating",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1004,
+    "word": "fasten",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1002,
+    "word": "fashionable",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1021,
+    "word": "fence",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1063,
+    "word": "flour",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1061,
+    "word": "flood",
+    "type": "n., v.",
+    "level": "B1"
+  },
+  {
+    "id": 1064,
+    "word": "flow",
+    "type": "v., n.",
+    "level": "B1"
+  },
+  {
+    "id": 1072,
+    "word": "folk",
+    "type": "n., adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1102,
+    "word": "frequently",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1108,
+    "word": "frighten",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1126,
+    "word": "fur",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1128,
+    "word": "further",
+    "type": "adj. A2, adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1146,
+    "word": "generous",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1158,
+    "word": "glad",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1177,
+    "word": "grain",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1184,
+    "word": "grateful",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1318,
+    "word": "imaginary",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1321,
+    "word": "immediate",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1324,
+    "word": "impact",
+    "type": "n., v.",
+    "level": "B1"
+  },
+  {
+    "id": 1328,
+    "word": "importance",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1334,
+    "word": "impression",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1335,
+    "word": "impressive",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1352,
+    "word": "indirect",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1351,
+    "word": "indicate",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1367,
+    "word": "injure",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1368,
+    "word": "injured",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1389,
+    "word": "intend",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1392,
+    "word": "intention",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1432,
+    "word": "journal",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1468,
+    "word": "lack",
+    "type": "n., v.",
+    "level": "B1"
+  },
+  {
+    "id": 1495,
+    "word": "leaf",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1501,
+    "word": "leather",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1507,
+    "word": "leisure",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1573,
+    "word": "mad",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1578,
+    "word": "mainly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1618,
+    "word": "meanwhile",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1663,
+    "word": "mixture",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1692,
+    "word": "mud",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1705,
+    "word": "mystery",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1706,
+    "word": "nail",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1708,
+    "word": "narrative",
+    "type": "n., adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1718,
+    "word": "neat",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1719,
+    "word": "necessarily",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1723,
+    "word": "needle",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1722,
+    "word": "need",
+    "type": "v. A1, n. A2, modal v.",
+    "level": "B1"
+  },
+  {
+    "id": 1727,
+    "word": "neither",
+    "type": "det./pron. A2, adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1730,
+    "word": "net",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1751,
+    "word": "nor",
+    "type": "conj./adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1755,
+    "word": "northern",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1779,
+    "word": "obviously",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1778,
+    "word": "obvious",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1780,
+    "word": "occasion",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1848,
+    "word": "overseas",
+    "type": "adv. A2, adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1782,
+    "word": "occur",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1853,
+    "word": "pack",
+    "type": "v. A2, n.",
+    "level": "B1"
+  },
+  {
+    "id": 1840,
+    "word": "outdoor",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1841,
+    "word": "outdoors",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1857,
+    "word": "painful",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1863,
+    "word": "pale",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1864,
+    "word": "pan",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1874,
+    "word": "participate",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 1876,
+    "word": "particularly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1951,
+    "word": "pleasant",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1954,
+    "word": "pleasure",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1955,
+    "word": "plenty",
+    "type": "pron.",
+    "level": "B1"
+  },
+  {
+    "id": 1959,
+    "word": "poem",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1960,
+    "word": "poet",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1965,
+    "word": "poisonous",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 1964,
+    "word": "poison",
+    "type": "n., v.",
+    "level": "B1"
+  },
+  {
+    "id": 1989,
+    "word": "possibly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 1997,
+    "word": "poverty",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 1992,
+    "word": "pot",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2015,
+    "word": "presentation",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2007,
+    "word": "prediction",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2020,
+    "word": "pretend",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 2038,
+    "word": "prisoner",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2062,
+    "word": "proper",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2063,
+    "word": "properly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 2064,
+    "word": "property",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2090,
+    "word": "qualified",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2091,
+    "word": "qualify",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 2103,
+    "word": "quotation",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2175,
+    "word": "reliable",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2194,
+    "word": "represent",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 2183,
+    "word": "remind",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 2225,
+    "word": "revise",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 2243,
+    "word": "roll",
+    "type": "v., n.",
+    "level": "B1"
+  },
+  {
+    "id": 2248,
+    "word": "rope",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2249,
+    "word": "rough",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2268,
+    "word": "sail",
+    "type": "v. A2, n.",
+    "level": "B1"
+  },
+  {
+    "id": 2270,
+    "word": "sailor",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2277,
+    "word": "sand",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2301,
+    "word": "sculpture",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2337,
+    "word": "servant",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2364,
+    "word": "shelf",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2390,
+    "word": "sight",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2365,
+    "word": "shell",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2398,
+    "word": "silly",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2401,
+    "word": "similarity",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2402,
+    "word": "similarly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 2432,
+    "word": "slightly",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 2429,
+    "word": "slice",
+    "type": "n., v.",
+    "level": "B1"
+  },
+  {
+    "id": 2427,
+    "word": "slave",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2411,
+    "word": "sink",
+    "type": "v.",
+    "level": "B1"
+  },
+  {
+    "id": 2405,
+    "word": "since",
+    "type": "prep., conj. A2, adv.",
+    "level": "B1"
+  },
+  {
+    "id": 2404,
+    "word": "simply",
+    "type": "adv.",
+    "level": "B1"
+  },
+  {
+    "id": 2456,
+    "word": "soil",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2499,
+    "word": "spoken",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2567,
+    "word": "substance",
+    "type": "n.",
+    "level": "B1"
+  },
+  {
+    "id": 2574,
+    "word": "sudden",
+    "type": "adj.",
+    "level": "B1"
+  },
+  {
+    "id": 2580,
+    "word": "suit",
+    "type": "n. A2, v.",
+    "level": "B1"
+  },
+  {
+    "id": 2581,
+    "word": "suitable",
+    "type": "adj.",
+    "level": "B1"
   }
 ]

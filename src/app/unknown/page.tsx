@@ -3,23 +3,56 @@ import path from 'path';
 import Link from 'next/link';
 
 export default async function UnknownWordsPage() {
-  let unknownWords = [];
+  let unknownWords: any[] = [];
   try {
     const filePath = path.join(process.cwd(), 'unknown_words.json');
     if (fs.existsSync(filePath)) {
-      const fileContents = fs.readFileSync(filePath, 'utf8');
+      const fileContents = await fs.promises.readFile(filePath, 'utf8');
       unknownWords = JSON.parse(fileContents);
     }
   } catch (error) {
     console.error('Failed to load unknown_words.json:', error);
   }
 
+  // Group by Level
+  const grouped: Record<string, typeof unknownWords> = {};
+  let totalFilteredWords = 0;
+  
+  unknownWords.forEach((w: any) => {
+    const wordStr = typeof w.word === 'string' ? w.word.trim() : "";
+    // Only allow words with alphabetic characters, hyphens, spaces, and single quotes
+    if (!/^[a-zA-Z\-\s']+$/.test(wordStr)) {
+      return;
+    }
+
+    let level = typeof w.level === 'string' ? w.level.trim() : "Unknown";
+    if (level === "") level = "Unknown";
+
+    if (!grouped[level]) {
+      grouped[level] = [];
+    }
+    grouped[level].push(w);
+    totalFilteredWords++;
+  });
+
+  // Sort words alphabetically within each level
+  Object.keys(grouped).forEach(level => {
+    grouped[level].sort((a: any, b: any) => {
+      const wordA = a.word || "";
+      const wordB = b.word || "";
+      return wordA.localeCompare(wordB);
+    });
+  });
+
+  // Sort level names (A1, A2, B1...)
+  const sortedLevels = Object.keys(grouped).sort();
+
   return (
     <main className="min-h-screen p-8 bg-gray-100 dark:bg-zinc-900 text-gray-900 dark:text-white flex flex-col">
-      <div className="max-w-4xl mx-auto w-full">
+      <div className="max-w-6xl mx-auto w-full">
         
         {/* Header */}
-        <div className="flex justify-between items-center mb-8 pb-4 border-b border-gray-300 dark:border-zinc-700">
+        <div className="flex justify-between items-center mb-6 pb-4 border-b border-gray-300 dark:border-zinc-700">
           <h1 className="text-3xl font-bold">Unknown Words List</h1>
           <Link 
             href="/"
@@ -36,41 +69,61 @@ export default async function UnknownWordsPage() {
             <p className="text-gray-600 dark:text-gray-400">You haven't marked any words as unknown yet.</p>
           </div>
         ) : (
-          <div className="bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-1 rounded-none">
-            <table className="w-full text-left border-collapse">
-              <thead>
-                <tr className="bg-gray-200 dark:bg-zinc-700 border-b border-gray-300 dark:border-zinc-600">
-                  <th className="p-3 font-semibold w-12 text-center border-r border-gray-300 dark:border-zinc-600">#</th>
-                  <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Word</th>
-                  <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Type</th>
-                  <th className="p-3 font-semibold">Level</th>
-                </tr>
-              </thead>
-              <tbody>
-                {unknownWords.map((word: any, index: number) => (
-                  <tr 
-                    key={word.id} 
-                    className="border-b border-gray-200 dark:border-zinc-700 hover:bg-gray-50 dark:hover:bg-zinc-700/50 transition-colors"
-                  >
-                    <td className="p-3 text-center border-r border-gray-200 dark:border-zinc-700 text-gray-500 dark:text-gray-400">
-                      {index + 1}
-                    </td>
-                    <td className="p-3 font-bold border-r border-gray-200 dark:border-zinc-700">
-                      {word.word}
-                    </td>
-                    <td className="p-3 border-r border-gray-200 dark:border-zinc-700">
-                      {word.type}
-                    </td>
-                    <td className="p-3">
-                      <span className="px-2 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-sm">
-                        {word.level}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <>
+            {/* Quick Navigation Bar */}
+            <div className="sticky top-0 z-50 flex flex-wrap gap-2 mb-10 items-center border border-gray-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 p-4 shadow-sm shadow-black/5">
+              <span className="font-semibold text-gray-700 dark:text-gray-300 mr-2">Jump to level (Total: {totalFilteredWords}):</span>
+              {sortedLevels.map(level => (
+                <a 
+                  key={level} 
+                  href={`#${level.replace(/\s+/g, '-')}`}
+                  className="px-3 py-1 bg-gray-200 dark:bg-zinc-700 hover:bg-[#0078D7] hover:text-white dark:hover:bg-[#0078D7] border border-gray-300 dark:border-zinc-600 hover:border-[#0078D7] dark:hover:border-[#0078D7] transition-colors font-medium text-sm rounded-none"
+                >
+                  {level}
+                </a>
+              ))}
+            </div>
+
+            <div className="flex flex-col gap-12">
+              {sortedLevels.map((level) => (
+                <div key={level} id={level.replace(/\s+/g, '-')} className="scroll-mt-24">
+                  <h2 className="text-2xl font-bold mb-4 border-b-2 border-[#0078D7] pb-2 inline-block">
+                    Level {level} <span className="text-gray-500 dark:text-gray-400 font-normal text-lg ml-2">({grouped[level].length} Words)</span>
+                  </h2>
+                  
+                  <div className="bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-1 rounded-none overflow-x-auto">
+                    <table className="w-full text-left border-collapse min-w-[500px]">
+                      <thead>
+                        <tr className="bg-gray-200 dark:bg-zinc-700 border-b border-gray-300 dark:border-zinc-600">
+                          <th className="p-3 font-semibold w-16 text-center border-r border-gray-300 dark:border-zinc-600">No.</th>
+                          <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Word</th>
+                          <th className="p-3 font-semibold">Type</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {grouped[level].map((word: any, index: number) => (
+                          <tr 
+                            key={word.id} 
+                            className="border-b border-gray-200 dark:border-zinc-700 hover:bg-gray-50 dark:hover:bg-zinc-700/50 transition-none group"
+                          >
+                            <td className="p-3 text-center border-r border-gray-200 dark:border-zinc-700 text-gray-500 dark:text-gray-400 group-hover:bg-gray-100 group-hover:dark:bg-zinc-600 transition-none">
+                              {index + 1}
+                            </td>
+                            <td className="p-3 font-bold border-r border-gray-200 dark:border-zinc-700 text-win-blue dark:text-blue-400">
+                              {word.word}
+                            </td>
+                            <td className="p-3 text-gray-800 dark:text-gray-200">
+                              {word.type}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
         )}
       </div>
     </main>

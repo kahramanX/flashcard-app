@@ -8,17 +8,21 @@ export default async function Page() {
   
   try {
     const filePath = path.join(process.cwd(), 'words.json');
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    initialWords = JSON.parse(fileContents);
+    if (fs.existsSync(filePath)) {
+      const fileContents = await fs.promises.readFile(filePath, 'utf8');
+      initialWords = JSON.parse(fileContents);
+    }
   } catch (error) {
     console.error('Failed to load words.json:', error);
   }
 
   try {
     const unknownPath = path.join(process.cwd(), 'unknown_words.json');
-    const unknownContents = fs.readFileSync(unknownPath, 'utf8');
-    const unknownWords = JSON.parse(unknownContents);
-    initialUnknownIds = unknownWords.map((w: any) => w.id);
+    if (fs.existsSync(unknownPath)) {
+      const unknownContents = await fs.promises.readFile(unknownPath, 'utf8');
+      const unknownWords = JSON.parse(unknownContents);
+      initialUnknownIds = unknownWords.map((w: any) => w.id);
+    }
   } catch (error) {
     console.error('Failed to load unknown_words.json:', error);
   }

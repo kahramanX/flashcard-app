@@ -170,7 +170,7 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   const isUnknown = unknownIds.has(currentWord.id);
 
   return (
-    <div className="w-full max-w-lg mx-auto flex flex-col items-center min-h-[80vh] pt-4">
+    <div className="w-full max-w-lg mx-auto flex flex-col items-center min-h-[80vh] pt-2 sm:pt-8 px-2 sm:px-0">
       
       {/* Unified Top Navigation Bar */}
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 mb-8">
@@ -269,11 +269,11 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
           <ChevronLeft className="w-6 h-6" />
         </button>
 
-        <h1 className="text-5xl md:text-6xl font-bold text-black dark:text-white mb-10 text-center tracking-normal px-12">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black dark:text-white mb-6 sm:mb-10 text-center tracking-normal px-4 sm:px-12">
           {currentWord.word}
         </h1>
         
-        <div className="flex flex-row flex-wrap items-center justify-center gap-3 px-12">
+        <div className="flex flex-row flex-wrap items-center justify-center gap-2 sm:gap-3 px-4 sm:px-12">
           <span className="text-lg font-semibold px-4 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-gray-800 dark:text-gray-200 rounded-none">
             {currentWord.type}
           </span>

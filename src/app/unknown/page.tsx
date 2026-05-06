@@ -36,7 +36,7 @@ export default async function UnknownLevelsIndexPage() {
   const sortedLevels = Object.keys(levelCounts).sort();
 
   return (
-    <main className="min-h-screen p-8 bg-gray-100 dark:bg-zinc-900 text-gray-900 dark:text-white flex flex-col">
+    <main className="min-h-screen p-4 sm:p-8 bg-gray-100 dark:bg-zinc-900 text-gray-900 dark:text-white flex flex-col">
       <div className="max-w-6xl mx-auto w-full">
         
         {/* Header */}

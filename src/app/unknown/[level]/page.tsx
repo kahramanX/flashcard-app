@@ -43,12 +43,12 @@ export default async function UnknownLevelPage(props: { params: Promise<{ level:
     : decodedLevel;
 
   return (
-    <main className="min-h-screen p-8 bg-gray-100 dark:bg-zinc-900 text-gray-900 dark:text-white flex flex-col">
+    <main className="min-h-screen p-4 sm:p-8 bg-gray-100 dark:bg-zinc-900 text-gray-900 dark:text-white flex flex-col">
       <div className="max-w-6xl mx-auto w-full">
         
         {/* Header */}
-        <div className="flex justify-between items-center mb-6 pb-4 border-b border-gray-300 dark:border-zinc-700">
-          <h1 className="text-3xl font-bold">Unknown Words for Level: {displayLevel}</h1>
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 pb-4 border-b border-gray-300 dark:border-zinc-700">
+          <h1 className="text-2xl sm:text-3xl font-bold">Unknown Words for Level: {displayLevel}</h1>
           <Link 
             href="/unknown"
             className="px-4 py-2 bg-[#0078D7] hover:bg-[#005a9e] text-white transition-none text-sm font-normal border border-transparent focus:outline-none focus:ring-1 focus:ring-black dark:focus:ring-white rounded-none"

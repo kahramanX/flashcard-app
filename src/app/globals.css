@@ -11,14 +11,15 @@
 @layer base {
   body {
     @apply bg-gray-100 text-gray-900 font-sans transition-colors duration-200;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px;'><text y='24'>🖱️</text></svg>"), auto;
   }
   
-  button:not(:disabled) {
-    cursor: pointer;
+  button:not(:disabled), a, [role="button"], .cursor-pointer {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px;'><text y='24'>👆</text></svg>"), pointer !important;
   }
 
-  button:disabled {
-    cursor: not-allowed;
+  button:disabled, .cursor-not-allowed {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px;'><text y='24'>❌</text></svg>"), not-allowed !important;
   }
   
   .dark body {

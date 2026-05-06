@@ -3,6 +3,7 @@ import path from 'path';
 import FlashcardApp from '@/components/FlashcardApp';
 
 export default async function Page() {
+  await new Promise(resolve => setTimeout(resolve, 500));
   let initialWords = [];
   let initialUnknownIds = [];
   

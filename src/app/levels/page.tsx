@@ -3,6 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 
 export default async function LevelsIndexPage() {
+  await new Promise(resolve => setTimeout(resolve, 500));
   let allWords: any[] = [];
   try {
     const filePath = path.join(process.cwd(), 'words.json');
@@ -61,6 +62,7 @@ export default async function LevelsIndexPage() {
               <Link
                 key={level}
                 href={`/levels/${encodeURIComponent(level)}`}
+                prefetch={false}
                 className="bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-6 rounded-none hover:border-[#0078D7] dark:hover:border-[#0078D7] hover:shadow-md transition-all group flex justify-between items-center"
               >
                 <div className="flex flex-col">

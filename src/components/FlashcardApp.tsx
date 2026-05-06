@@ -170,40 +170,62 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   const isUnknown = unknownIds.has(currentWord.id);
 
   return (
-    <div className="w-full max-w-lg mx-auto flex flex-col items-center relative min-h-[80vh]">
+    <div className="w-full max-w-lg mx-auto flex flex-col items-center min-h-[80vh] pt-4">
       
-      {/* Top Action Bar (Theme + Last Viewed) */}
-      <div className="absolute -top-12 right-0 flex gap-2 items-center">
-        <button 
-          onClick={handleSaveProgress}
-          className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
-          title="Save this card as Last Viewed"
-        >
-          <Save className="w-4 h-4" />
-          <span className="hidden sm:inline">Set as Last Viewed</span>
-        </button>
-
-        {savedIndex !== null && savedIndex !== currentIndex && (
-          <button 
-            onClick={() => {
-              setCurrentIndex(savedIndex);
-              showToast(`Jumped to saved card (#${savedIndex + 1})`);
-            }}
-            className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
-            title="Go to Saved Position"
+      {/* Unified Top Navigation Bar */}
+      <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 mb-8">
+        
+        {/* Links Container */}
+        <div className="flex w-full md:w-auto gap-2">
+          <Link 
+            href="/levels"
+            prefetch={false}
+            className="flex-1 md:flex-none inline-flex items-center justify-center py-2 px-3 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-700 transition-colors rounded-none text-gray-700 dark:text-gray-300 font-medium text-xs sm:text-sm"
           >
-            <History className="w-4 h-4" />
-            <span className="hidden sm:inline">Resume: {savedIndex + 1}</span>
-          </button>
-        )}
+            All Words
+          </Link>
+          <Link 
+            href="/unknown"
+            prefetch={false}
+            className="flex-1 md:flex-none inline-flex items-center justify-center py-2 px-3 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-700 transition-colors rounded-none text-gray-700 dark:text-gray-300 font-medium text-xs sm:text-sm"
+          >
+            Unknown Words
+          </Link>
+        </div>
 
-        <button 
-          onClick={toggleTheme}
-          className="p-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-gray-800 dark:text-gray-200 cursor-pointer"
-          aria-label="Toggle Dark Mode"
-        >
-          {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-        </button>
+        {/* Top Actions (Theme + Last Viewed) */}
+        <div className="flex gap-2 items-center self-end md:self-auto">
+          <button 
+            onClick={handleSaveProgress}
+            className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
+            title="Save this card as Last Viewed"
+          >
+            <Save className="w-4 h-4" />
+            <span className="hidden sm:inline">Save</span>
+          </button>
+
+          {savedIndex !== null && savedIndex !== currentIndex && (
+            <button 
+              onClick={() => {
+                setCurrentIndex(savedIndex);
+                showToast(`Jumped to saved card (#${savedIndex + 1})`);
+              }}
+              className="px-3 py-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-sm text-gray-800 dark:text-gray-200 cursor-pointer flex items-center gap-2"
+              title="Go to Saved Position"
+            >
+              <History className="w-4 h-4" />
+              <span className="hidden sm:inline">Resume</span>
+            </button>
+          )}
+
+          <button 
+            onClick={toggleTheme}
+            className="p-2 bg-transparent hover:bg-gray-200 dark:hover:bg-zinc-700 border border-transparent hover:border-gray-300 dark:hover:border-zinc-600 transition-colors text-gray-800 dark:text-gray-200 cursor-pointer"
+            aria-label="Toggle Dark Mode"
+          >
+            {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+          </button>
+        </div>
       </div>
 
       {/* Toast Notification (Windows 10 Style flyout) */}
@@ -234,13 +256,24 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
         </div>
       </div>
 
-      {/* Static Single Card Area */}
-      <div className="w-full min-h-[300px] mb-6 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-8 rounded-none shadow-none flex flex-col items-center justify-center transition-colors">
-        <h1 className="text-5xl md:text-6xl font-bold text-black dark:text-white mb-10 text-center tracking-normal">
+      {/* Card Area */}
+      <div className="w-full relative min-h-[300px] mb-4 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-8 rounded-none shadow-none flex flex-col items-center justify-center transition-colors">
+        
+        {/* Left Arrow (Absolute inside card) */}
+        <button
+          onClick={handlePrev}
+          disabled={currentIndex === 0}
+          className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 disabled:opacity-50 disabled:hover:bg-gray-200 dark:disabled:hover:bg-zinc-800 transition-colors flex items-center justify-center rounded-none text-gray-900 dark:text-white z-10"
+          aria-label="Previous Word"
+        >
+          <ChevronLeft className="w-6 h-6" />
+        </button>
+
+        <h1 className="text-5xl md:text-6xl font-bold text-black dark:text-white mb-10 text-center tracking-normal px-12">
           {currentWord.word}
         </h1>
         
-        <div className="flex flex-row flex-wrap items-center justify-center gap-3">
+        <div className="flex flex-row flex-wrap items-center justify-center gap-3 px-12">
           <span className="text-lg font-semibold px-4 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-gray-800 dark:text-gray-200 rounded-none">
             {currentWord.type}
           </span>
@@ -253,25 +286,25 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
             Level: {currentWord.level}
           </span>
         </div>
+
+        {/* Right Arrow (Absolute inside card) */}
+        <button
+          onClick={handleNext}
+          disabled={currentIndex === initialWords.length - 1}
+          className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 disabled:opacity-50 disabled:hover:bg-gray-200 dark:disabled:hover:bg-zinc-800 transition-colors flex items-center justify-center rounded-none text-gray-900 dark:text-white z-10"
+          aria-label="Next Word"
+        >
+          <ChevronRight className="w-6 h-6" />
+        </button>
       </div>
 
-      {/* Controls */}
-      <div className="flex w-full items-stretch justify-between gap-2 h-12">
-        <button
-          onClick={handlePrev}
-          disabled={currentIndex === 0}
-          className="w-12 h-full bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 disabled:opacity-50 disabled:hover:bg-gray-200 dark:disabled:hover:bg-zinc-800 transition-colors flex items-center justify-center rounded-none text-gray-900 dark:text-white shrink-0"
-          aria-label="Previous Word"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
-
-        {/* Toggle Button */}
+      {/* Mark as Unknown Button (Full Width) */}
+      <div className="w-full h-12">
         <button
           onClick={handleToggleUnknown}
           disabled={isMarking}
           className={cn(
-            "flex-1 h-full px-6 transition-none flex items-center justify-center gap-2 disabled:opacity-50 font-normal border rounded-none shadow-none text-sm md:text-base focus:outline-none focus:ring-1 focus:ring-black dark:focus:ring-white",
+            "w-full h-full px-6 transition-none flex items-center justify-center gap-2 disabled:opacity-50 font-normal border rounded-none shadow-none text-sm md:text-base focus:outline-none focus:ring-1 focus:ring-black dark:focus:ring-white",
             isUnknown 
               ? "bg-[#CCCCCC] dark:bg-[#333333] border-transparent hover:bg-[#B3B3B3] dark:hover:bg-[#444444] text-black dark:text-white" 
               : "bg-win-blue hover:bg-win-blue-hover border-transparent text-white"
@@ -286,32 +319,8 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
             {isUnknown ? "Marked as Unknown" : "Mark as Unknown"}
           </span>
         </button>
-
-        <button
-          onClick={handleNext}
-          disabled={currentIndex === initialWords.length - 1}
-          className="w-12 h-full bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 disabled:opacity-50 disabled:hover:bg-gray-200 dark:disabled:hover:bg-zinc-800 transition-colors flex items-center justify-center rounded-none text-gray-900 dark:text-white shrink-0"
-          aria-label="Next Word"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
       </div>
 
-      {/* Links Container */}
-      <div className="w-full mt-6 flex flex-col md:flex-row items-center justify-center gap-4">
-        <Link 
-          href="/levels"
-          className="inline-flex items-center justify-center py-2 px-6 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 transition-none rounded-none text-gray-900 dark:text-white font-normal text-sm w-full md:w-auto"
-        >
-          View All Words by Level
-        </Link>
-        <Link 
-          href="/unknown"
-          className="inline-flex items-center justify-center py-2 px-6 bg-gray-200 dark:bg-zinc-800 hover:bg-gray-300 dark:hover:bg-zinc-700 border border-gray-300 dark:border-zinc-600 transition-none rounded-none text-gray-900 dark:text-white font-normal text-sm w-full md:w-auto"
-        >
-          View Unknown Words List
-        </Link>
-      </div>
 
     </div>
   );

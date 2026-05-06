@@ -13,6 +13,14 @@
     @apply bg-gray-100 text-gray-900 font-sans transition-colors duration-200;
   }
   
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+  
   .dark body {
     @apply bg-zinc-900 text-white;
   }

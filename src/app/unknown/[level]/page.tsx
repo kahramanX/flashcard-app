@@ -4,6 +4,7 @@ import Link from 'next/link';
 import WordRow from '../WordRow';
 
 export default async function UnknownLevelPage(props: { params: Promise<{ level: string }> }) {
+  await new Promise(resolve => setTimeout(resolve, 1000));
   const params = await props.params;
   const decodedLevel = decodeURIComponent(params.level);
   

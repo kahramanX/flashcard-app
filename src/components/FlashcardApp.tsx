@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, BookmarkPlus, BookmarkCheck, Sun, Moon, History, Save } from 'lucide-react';
 import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -22,6 +23,7 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
   const [isMarking, setIsMarking] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [savedIndex, setSavedIndex] = useState<number | null>(null);
+  const [direction, setDirection] = useState(0);
   
   // Track unknown IDs in client state
   const [unknownIds, setUnknownIds] = useState<Set<number>>(new Set(initialUnknownIds));
@@ -91,12 +93,14 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
 
   const handleNext = () => {
     if (currentIndex < initialWords.length - 1) {
+      setDirection(1);
       setCurrentIndex(prev => prev + 1);
     }
   };
 
   const handlePrev = () => {
     if (currentIndex > 0) {
+      setDirection(-1);
       setCurrentIndex(prev => prev - 1);
     }
   };
@@ -112,8 +116,12 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
     const rect = e.currentTarget.getBoundingClientRect();
     const clickX = e.clientX - rect.left;
     const percentage = clickX / rect.width;
-    const targetIndex = Math.floor(percentage * initialWords.length);
-    setCurrentIndex(Math.max(0, Math.min(targetIndex, initialWords.length - 1)));
+    const targetIndex = Math.max(0, Math.min(Math.floor(percentage * initialWords.length), initialWords.length - 1));
+    
+    if (targetIndex !== currentIndex) {
+      setDirection(targetIndex > currentIndex ? 1 : -1);
+      setCurrentIndex(targetIndex);
+    }
   };
 
   const handleToggleUnknown = async () => {
@@ -257,7 +265,7 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
       </div>
 
       {/* Card Area */}
-      <div className="w-full relative min-h-[300px] mb-4 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-8 rounded-none shadow-none flex flex-col items-center justify-center transition-colors">
+      <div className="w-full relative min-h-[300px] mb-4 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 p-8 rounded-none shadow-none flex flex-col items-center justify-center transition-colors overflow-hidden">
         
         {/* Left Arrow (Absolute inside card) */}
         <button
@@ -269,23 +277,52 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
           <ChevronLeft className="w-6 h-6" />
         </button>
 
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black dark:text-white mb-6 sm:mb-10 text-center tracking-normal px-4 sm:px-12">
-          {currentWord.word}
-        </h1>
-        
-        <div className="flex flex-row flex-wrap items-center justify-center gap-2 sm:gap-3 px-4 sm:px-12">
-          <span className="text-lg font-semibold px-4 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-gray-800 dark:text-gray-200 rounded-none">
-            {currentWord.type}
-          </span>
-          <span className={cn(
-             "text-lg font-bold px-4 py-1 border rounded-none",
-             currentWord.level.includes('C') ? 'bg-red-50 dark:bg-red-900/30 border-red-300 dark:border-red-800 text-red-800 dark:text-red-300' 
-           : currentWord.level.includes('B') ? 'bg-orange-50 dark:bg-orange-900/30 border-orange-300 dark:border-orange-800 text-orange-800 dark:text-orange-300' 
-           : 'bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-800 dark:text-green-300'
-          )}>
-            Level: {currentWord.level}
-          </span>
-        </div>
+        <AnimatePresence mode="wait" custom={direction}>
+          <motion.div
+            key={currentIndex}
+            custom={direction}
+            variants={{
+              enter: (dir: number) => ({
+                x: dir > 0 ? 100 : -100,
+                opacity: 0,
+              }),
+              center: {
+                x: 0,
+                opacity: 1,
+              },
+              exit: (dir: number) => ({
+                x: dir < 0 ? 100 : -100,
+                opacity: 0,
+              }),
+            }}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{
+              x: { type: "spring", stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 },
+            }}
+            className="flex flex-col items-center justify-center w-full"
+          >
+            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black dark:text-white mb-6 sm:mb-10 text-center tracking-normal px-4 sm:px-12">
+              {currentWord.word}
+            </h1>
+            
+            <div className="flex flex-row flex-wrap items-center justify-center gap-2 sm:gap-3 px-4 sm:px-12">
+              <span className="text-lg font-semibold px-4 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-gray-800 dark:text-gray-200 rounded-none">
+                {currentWord.type}
+              </span>
+              <span className={cn(
+                "text-lg font-bold px-4 py-1 border rounded-none",
+                currentWord.level.includes('C') ? 'bg-red-50 dark:bg-red-900/30 border-red-300 dark:border-red-800 text-red-800 dark:text-red-300' 
+              : currentWord.level.includes('B') ? 'bg-orange-50 dark:bg-orange-900/30 border-orange-300 dark:border-orange-800 text-orange-800 dark:text-orange-300' 
+              : 'bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-800 dark:text-green-300'
+              )}>
+                Level: {currentWord.level}
+              </span>
+            </div>
+          </motion.div>
+        </AnimatePresence>
 
         {/* Right Arrow (Absolute inside card) */}
         <button

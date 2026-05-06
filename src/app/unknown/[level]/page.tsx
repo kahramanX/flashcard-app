@@ -1,41 +1,13 @@
-import fs from 'fs';
-import path from 'path';
 import Link from 'next/link';
 import WordRow from '../WordRow';
+import { api } from '@/lib/api';
 
 export default async function UnknownLevelPage(props: { params: Promise<{ level: string }> }) {
   await new Promise(resolve => setTimeout(resolve, 1000));
   const params = await props.params;
   const decodedLevel = decodeURIComponent(params.level);
   
-  let unknownWords: any[] = [];
-  try {
-    const unknownPath = path.join(process.cwd(), 'unknown_words.json');
-    if (fs.existsSync(unknownPath)) {
-      const unknownContents = await fs.promises.readFile(unknownPath, 'utf8');
-      unknownWords = JSON.parse(unknownContents);
-    }
-  } catch (error) {
-    console.error('Failed to load unknown_words.json:', error);
-  }
-
-  // Filter words by this level
-  const levelWords = unknownWords.filter(w => {
-    const wordStr = typeof w.word === 'string' ? w.word.trim() : "";
-    if (!/^[a-zA-Z\-\s']+$/.test(wordStr)) return false;
-    
-    let wLevel = typeof w.level === 'string' ? w.level.trim() : "Unknown";
-    if (wLevel === "") wLevel = "Unknown";
-    
-    return wLevel.toLowerCase() === decodedLevel.toLowerCase();
-  });
-
-  // Sort words alphabetically
-  levelWords.sort((a, b) => {
-    const wordA = a.word || "";
-    const wordB = b.word || "";
-    return wordA.localeCompare(wordB);
-  });
+  const levelWords = await api.getUnknownWordsByLevel(decodedLevel);
 
   // To display the properly capitalized level name:
   const displayLevel = levelWords.length > 0 && levelWords[0].level 

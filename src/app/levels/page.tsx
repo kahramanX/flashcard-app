@@ -1,38 +1,9 @@
-import fs from 'fs';
-import path from 'path';
 import Link from 'next/link';
+import { api } from '@/lib/api';
 
 export default async function LevelsIndexPage() {
   await new Promise(resolve => setTimeout(resolve, 500));
-  let allWords: any[] = [];
-  try {
-    const filePath = path.join(process.cwd(), 'words.json');
-    if (fs.existsSync(filePath)) {
-      const fileContents = await fs.promises.readFile(filePath, 'utf8');
-      allWords = JSON.parse(fileContents);
-    }
-  } catch (error) {
-    console.error('Failed to load words.json:', error);
-  }
-
-  // Find all unique levels
-  const levelCounts: Record<string, number> = {};
-  
-  allWords.forEach(w => {
-    const wordStr = typeof w.word === 'string' ? w.word.trim() : "";
-    if (!/^[a-zA-Z\-\s']+$/.test(wordStr)) {
-      return;
-    }
-
-    let level = typeof w.level === 'string' ? w.level.trim() : "Unknown";
-    if (level === "") level = "Unknown";
-
-    if (!levelCounts[level]) {
-      levelCounts[level] = 0;
-    }
-    levelCounts[level]++;
-  });
-
+  const levelCounts = await api.getLevelCounts();
   const sortedLevels = Object.keys(levelCounts).sort();
 
   return (

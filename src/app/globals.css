@@ -26,3 +26,17 @@
     @apply bg-zinc-900 text-white;
   }
 }
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  @page {
+    margin: 10mm;
+    size: A4;
+  }
+}

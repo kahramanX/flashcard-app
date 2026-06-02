@@ -3,403 +3,470 @@
     "id": 2,
     "word": "abandon",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "terk etmek, vazgeçmek"
   },
   {
     "id": 14,
     "word": "accompany",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "eşlik etmek"
   },
   {
     "id": 15,
     "word": "according to",
     "type": "prep.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "göre"
   },
   {
     "id": 17,
     "word": "accurate",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "doğru, kesin"
   },
   {
     "id": 18,
     "word": "accuse",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "suçlamak, itham etmek"
   },
   {
     "id": 21,
     "word": "acknowledge",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kabul etmek, onaylamak"
   },
   {
     "id": 22,
     "word": "acquire",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "edinmek, kazanmak"
   },
   {
     "id": 23,
     "word": "across",
     "type": "prep., adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "karşıya, boyunca"
   },
   {
     "id": 29,
     "word": "actress",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "kadın oyuncu"
   },
   {
     "id": 39,
     "word": "admire",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hayran olmak, beğenmek"
   },
   {
     "id": 40,
     "word": "admit",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kabul etmek, itiraf etmek"
   },
   {
     "id": 48,
     "word": "advertisement",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "reklam, ilan"
   },
   {
     "id": 51,
     "word": "advise",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tavsiye etmek, öğütlemek"
   },
   {
     "id": 54,
     "word": "afford",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "karşılayabilmek (maddi)"
   },
   {
     "id": 58,
     "word": "afterward",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sonradan, daha sonra"
   },
   {
     "id": 75,
     "word": "airline",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "havayolu"
   },
   {
     "id": 74,
     "word": "aircraft",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "uçak, hava aracı"
   },
   {
     "id": 90,
     "word": "alter",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "değiştirmek"
   },
   {
     "id": 92,
     "word": "although",
     "type": "conj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "rağmen, her ne kadar"
   },
   {
     "id": 94,
     "word": "amazed",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "şaşkın, hayrete düşmüş"
   },
   {
     "id": 96,
     "word": "ambition",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hırs, tutku"
   },
   {
     "id": 97,
     "word": "among",
     "type": "prep.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "arasında"
   },
   {
     "id": 98,
     "word": "amount",
     "type": "n. A2, v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "miktar; ulaşmak"
   },
   {
     "id": 104,
     "word": "angle",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "açı"
   },
   {
     "id": 107,
     "word": "ankle",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ayak bileği"
   },
   {
     "id": 108,
     "word": "anniversary",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yıl dönümü"
   },
   {
     "id": 111,
     "word": "annoy",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kızdırmak, rahatsız etmek"
   },
   {
     "id": 112,
     "word": "annoyed",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sinirli, kızgın"
   },
   {
     "id": 113,
     "word": "annoying",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sinir bozucu, can sıkıcı"
   },
   {
     "id": 120,
     "word": "anymore",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "artık"
   },
   {
     "id": 121,
     "word": "anyone",
     "type": "pron.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "herhangi biri"
   },
   {
     "id": 122,
     "word": "anything",
     "type": "pron.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "herhangi bir şey"
   },
   {
     "id": 129,
     "word": "apparent",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "görünürdeki, besbelli"
   },
   {
     "id": 130,
     "word": "apparently",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "görünüşe göre, anlaşılan"
   },
   {
     "id": 131,
     "word": "appeal",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çekicilik; başvurmak"
   },
   {
     "id": 132,
     "word": "appear",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "görünmek, ortaya çıkmak"
   },
   {
     "id": 133,
     "word": "appearance",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "görünüş, dış görünüm"
   },
   {
     "id": 137,
     "word": "appointment",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "randevu"
   },
   {
     "id": 139,
     "word": "approach",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yaklaşım; yaklaşmak"
   },
   {
     "id": 140,
     "word": "appropriate",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "uygun, yerinde"
   },
   {
     "id": 143,
     "word": "approximately",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yaklaşık olarak"
   },
   {
     "id": 150,
     "word": "arise",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ortaya çıkmak, doğmak"
   },
   {
     "id": 156,
     "word": "arrange",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "düzenlemek, ayarlamak"
   },
   {
     "id": 157,
     "word": "arrangement",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "düzenleme, anlaşma"
   },
   {
     "id": 155,
     "word": "around",
     "type": "prep., adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "etrafında, civarında"
   },
   {
     "id": 158,
     "word": "arrest",
     "type": "v., n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tutuklama; tutuklamak"
   },
   {
     "id": 159,
     "word": "arrival",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "varış, geliş"
   },
   {
     "id": 160,
     "word": "arrive",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "varmak, ulaşmak"
   },
   {
     "id": 163,
     "word": "artificial",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yapay, suni"
   },
   {
     "id": 167,
     "word": "ashamed",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "utanmış, mahcup"
   },
   {
     "id": 168,
     "word": "aside",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bir yana, bir kenara"
   },
   {
     "id": 170,
     "word": "asleep",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "uykuda"
   },
   {
     "id": 171,
     "word": "aspect",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yön, boyut"
   },
   {
     "id": 172,
     "word": "assess",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "değerlendirmek"
   },
   {
     "id": 173,
     "word": "assessment",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "değerlendirme"
   },
   {
     "id": 175,
     "word": "assist",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yardım etmek"
   },
   {
     "id": 177,
     "word": "associate",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ilişkilendirmek"
   },
   {
     "id": 178,
     "word": "associated",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ilişkili, bağlantılı"
   },
   {
     "id": 179,
     "word": "association",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dernek, kuruluş; çağrışım"
   },
   {
     "id": 180,
     "word": "assume",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "varsaymak, kabul etmek"
   },
   {
     "id": 186,
     "word": "attempt",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "deneme; denemek"
   },
   {
     "id": 187,
     "word": "attend",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "katılmak"
   },
   {
     "id": 188,
     "word": "attention",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "dikkat, ilgi"
   },
   {
     "id": 189,
     "word": "attitude",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tutum, tavır"
   },
   {
     "id": 190,
     "word": "attorney",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "avukat"
   },
   {
     "id": 194,
     "word": "audience",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "seyirci, izleyici"
   },
   {
     "id": 222,
     "word": "band",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "grup, bant"
   },
   {
     "id": 232,
@@ -411,97 +478,113 @@
     "id": 240,
     "word": "bean",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "fasulye"
   },
   {
     "id": 247,
     "word": "become",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "olmak, haline gelmek"
   },
   {
     "id": 254,
     "word": "begin",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "başlamak"
   },
   {
     "id": 256,
     "word": "behave",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "davranmak"
   },
   {
     "id": 257,
     "word": "behavior",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "davranış"
   },
   {
     "id": 260,
     "word": "belief",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "inanç, kanı"
   },
   {
     "id": 263,
     "word": "belong",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ait olmak"
   },
   {
     "id": 264,
     "word": "below",
     "type": "adv., prep.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "aşağıda, altında"
   },
   {
     "id": 265,
     "word": "belt",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kemer"
   },
   {
     "id": 266,
     "word": "bend",
     "type": "v., n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "eğilmek, bükmek"
   },
   {
     "id": 267,
     "word": "benefit",
     "type": "n. A2, v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "fayda, yarar"
   },
   {
     "id": 268,
     "word": "bent",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bükülmüş, eğilmiş"
   },
   {
     "id": 273,
     "word": "beyond",
     "type": "prep., adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ötesinde, ötede"
   },
   {
     "id": 212,
     "word": "backward",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "geriye doğru"
   },
   {
     "id": 205,
     "word": "aware",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "farkında"
   },
   {
     "id": 208,
     "word": "awful",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "berbat, korkunç"
   },
   {
     "id": 294,
@@ -513,175 +596,204 @@
     "id": 306,
     "word": "bored",
     "type": "adj.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "sıkılmış"
   },
   {
     "id": 307,
     "word": "boring",
     "type": "adj.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "sıkıcı"
   },
   {
     "id": 393,
     "word": "carrot",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "havuç"
   },
   {
     "id": 394,
     "word": "carry",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "taşımak"
   },
   {
     "id": 484,
     "word": "coat",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "palto, ceket"
   },
   {
     "id": 534,
     "word": "concert",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "konser"
   },
   {
     "id": 595,
     "word": "cost",
     "type": "n., v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "maliyet; mal olmak"
   },
   {
     "id": 598,
     "word": "could modal",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "yapabilirdi, -ebilirdi"
   },
   {
     "id": 707,
     "word": "describe",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tanımlamak, betimlemek"
   },
   {
     "id": 730,
     "word": "dialogue",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "diyalog, konuşma"
   },
   {
     "id": 760,
     "word": "discuss",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tartışmak, görüşmek"
   },
   {
     "id": 763,
     "word": "dish",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tabak, yemek"
   },
   {
     "id": 813,
     "word": "during",
     "type": "prep.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "sırasında, süresince"
   },
   {
     "id": 919,
     "word": "evening",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "akşam"
   },
   {
     "id": 945,
     "word": "exercise",
     "type": "n., v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "egzersiz, alıştırma"
   },
   {
     "id": 981,
     "word": "fact",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "gerçek, olgu"
   },
   {
     "id": 1024,
     "word": "few",
     "type": "det./adj., pron.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "birkaç, az"
   },
   {
     "id": 1062,
     "word": "floor",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "zemin, kat"
   },
   {
     "id": 1075,
     "word": "food",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "yiyecek, gıda"
   },
   {
     "id": 1076,
     "word": "foot",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "ayak"
   },
   {
     "id": 1211,
     "word": "happen",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "olmak, meydana gelmek"
   },
   {
     "id": 1290,
     "word": "however",
     "type": "adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "ancak, bununla birlikte"
   },
   {
     "id": 1403,
     "word": "introduce",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tanıştırmak, sunmak"
   },
   {
     "id": 1480,
     "word": "late",
     "type": "adj., adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "geç"
   },
   {
     "id": 1561,
     "word": "lot",
     "type": "pron., det., adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "çok, bir sürü"
   },
   {
     "id": 1574,
     "word": "magazine",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "dergi"
   },
   {
     "id": 1621,
     "word": "meat",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "et"
   },
   {
     "id": 1626,
     "word": "meet",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tanışmak; buluşmak"
   },
   {
     "id": 1637,
     "word": "meter",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "metre, sayaç"
   },
   {
     "id": 1640,
@@ -693,169 +805,197 @@
     "id": 1738,
     "word": "next to",
     "type": "prep.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "yanında, bitişiğinde"
   },
   {
     "id": 1818,
     "word": "opposite",
     "type": "adj., adv., prep., n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "karşı, zıt"
   },
   {
     "id": 1846,
     "word": "over",
     "type": "prep., adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "üzerinde, üstünde"
   },
   {
     "id": 1897,
     "word": "pepper",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "biber"
   },
   {
     "id": 1925,
     "word": "phrase",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "deyim, ifade"
   },
   {
     "id": 2102,
     "word": "quite",
     "type": "adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "oldukça, epey"
   },
   {
     "id": 2099,
     "word": "quiet",
     "type": "adj.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "sessiz, sakin"
   },
   {
     "id": 2237,
     "word": "river",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "nehir, ırmak"
   },
   {
     "id": 2416,
     "word": "situation",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "durum, konum"
   },
   {
     "id": 2476,
     "word": "soup",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "çorba"
   },
   {
     "id": 2490,
     "word": "spell",
     "type": "v.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "hecelemek"
   },
   {
     "id": 2491,
     "word": "spelling",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "yazım, imla"
   },
   {
     "id": 2519,
     "word": "statement",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "açıklama, ifade"
   },
   {
     "id": 2606,
     "word": "sweater",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "kazak"
   },
   {
     "id": 2662,
     "word": "theater",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tiyatro"
   },
   {
     "id": 2681,
     "word": "thirsty",
     "type": "adj.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "susamış"
   },
   {
     "id": 2692,
     "word": "through",
     "type": "prep., adv.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "boyunca, aracılığıyla"
   },
   {
     "id": 2834,
     "word": "vacation",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "tatil"
   },
   {
     "id": 2871,
     "word": "waiter",
     "type": "n.",
-    "level": "A1"
+    "level": "A1",
+    "meaning": "garson"
   },
   {
     "id": 3,
     "word": "ability",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yetenek, beceri"
   },
   {
     "id": 4,
     "word": "able",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yapabilir, muktedir"
   },
   {
     "id": 45,
     "word": "advantage",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "avantaj, üstünlük"
   },
   {
     "id": 53,
     "word": "affect",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "etkilemek"
   },
   {
     "id": 60,
     "word": "against",
     "type": "prep.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "karşı, aleyhine"
   },
   {
     "id": 85,
     "word": "almost",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "neredeyse, hemen hemen"
   },
   {
     "id": 101,
     "word": "ancient",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "antik, eski"
   },
   {
     "id": 203,
     "word": "avoid",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kaçınmak, sakınmak"
   },
   {
     "id": 334,
     "word": "brilliant",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "parlak, harika"
   },
   {
     "id": 371,
@@ -879,7 +1019,8 @@
     "id": 405,
     "word": "celebrate",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kutlamak"
   },
   {
     "id": 407,
@@ -891,763 +1032,890 @@
     "id": 412,
     "word": "century",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yüzyıl"
   },
   {
     "id": 414,
     "word": "certain",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kesin, belirli"
   },
   {
     "id": 415,
     "word": "certainly",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kesinlikle, elbette"
   },
   {
     "id": 428,
     "word": "charity",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "hayır kurumu, yardım"
   },
   {
     "id": 464,
     "word": "clearly",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "açıkça, net olarak"
   },
   {
     "id": 465,
     "word": "clerk",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "katip, memur"
   },
   {
     "id": 469,
     "word": "climate",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "iklim"
   },
   {
     "id": 474,
     "word": "closet",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "dolap, gardırop"
   },
   {
     "id": 483,
     "word": "coast",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kıyı, sahil"
   },
   {
     "id": 518,
     "word": "compete",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yarışmak, rekabet etmek"
   },
   {
     "id": 522,
     "word": "complain",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "şikayet etmek"
   },
   {
     "id": 554,
     "word": "consider",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "düşünmek, dikkate almak"
   },
   {
     "id": 570,
     "word": "context",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bağlam"
   },
   {
     "id": 571,
     "word": "continent",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kıta"
   },
   {
     "id": 594,
     "word": "correctly",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "doğru bir şekilde"
   },
   {
     "id": 631,
     "word": "crowd",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kalabalık"
   },
   {
     "id": 630,
     "word": "cross",
     "type": "v., n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "geçmek; haç; sinirli"
   },
   {
     "id": 632,
     "word": "crowded",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kalabalık"
   },
   {
     "id": 701,
     "word": "department",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bölüm, departman"
   },
   {
     "id": 703,
     "word": "depend",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bağlı olmak, güvenmek"
   },
   {
     "id": 732,
     "word": "diary",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "günlük"
   },
   {
     "id": 752,
     "word": "disappear",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kaybolmak, ortadan kalkmak"
   },
   {
     "id": 755,
     "word": "disaster",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "felaket, afet"
   },
   {
     "id": 762,
     "word": "disease",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "hastalık"
   },
   {
     "id": 769,
     "word": "distance",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "mesafe, uzaklık"
   },
   {
     "id": 790,
     "word": "downstairs",
     "type": "adv. A1, adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "alt kata, alt katta"
   },
   {
     "id": 791,
     "word": "downtown",
     "type": "adv., n., adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "şehir merkezi"
   },
   {
     "id": 847,
     "word": "either",
     "type": "det./pron., adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "her iki, ya da"
   },
   {
     "id": 870,
     "word": "employ",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "istihdam etmek, çalıştırmak"
   },
   {
     "id": 871,
     "word": "employee",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "çalışan, işçi"
   },
   {
     "id": 872,
     "word": "employer",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "işveren"
   },
   {
     "id": 889,
     "word": "enormous",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "devasa, muazzam"
   },
   {
     "id": 910,
     "word": "essay",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "deneme, makale"
   },
   {
     "id": 929,
     "word": "evidence",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kanıt, delil"
   },
   {
     "id": 931,
     "word": "exact",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kesin, tam"
   },
   {
     "id": 932,
     "word": "exactly",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tam olarak, aynen"
   },
   {
     "id": 970,
     "word": "expression",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ifade, deyim"
   },
   {
     "id": 969,
     "word": "express",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ifade etmek, belirtmek"
   },
   {
     "id": 977,
     "word": "extremely",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "son derece, aşırı"
   },
   {
     "id": 984,
     "word": "fail",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "başarısız olmak"
   },
   {
     "id": 986,
     "word": "fair",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "adil; fuar"
   },
   {
     "id": 1023,
     "word": "fever",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ateş (hastalık)"
   },
   {
     "id": 1066,
     "word": "flu",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "grip"
   },
   {
     "id": 1080,
     "word": "foreign",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yabancı"
   },
   {
     "id": 1085,
     "word": "fork",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "çatal"
   },
   {
     "id": 1087,
     "word": "formal",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "resmi"
   },
   {
     "id": 1089,
     "word": "fortunately",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "neyse ki, şans eseri"
   },
   {
     "id": 1183,
     "word": "grass",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "çimen, ot"
   },
   {
     "id": 1188,
     "word": "greet",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "selamlamak, karşılamak"
   },
   {
     "id": 1190,
     "word": "ground",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "zemin, yer"
   },
   {
     "id": 1189,
     "word": "grocery",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bakkal, market"
   },
   {
     "id": 1204,
     "word": "habit",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "alışkanlık"
   },
   {
     "id": 1207,
     "word": "hall",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "salon, hol"
   },
   {
     "id": 1225,
     "word": "headache",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "baş ağrısı"
   },
   {
     "id": 1257,
     "word": "hill",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tepe"
   },
   {
     "id": 1312,
     "word": "ill",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "hasta, rahatsız"
   },
   {
     "id": 1314,
     "word": "illness",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "hastalık"
   },
   {
     "id": 1322,
     "word": "immediately",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "hemen, derhal"
   },
   {
     "id": 1342,
     "word": "included",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "dahil, içerilmiş"
   },
   {
     "id": 1343,
     "word": "including",
     "type": "prep.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "dahil olmak üzere"
   },
   {
     "id": 1350,
     "word": "independent",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bağımsız"
   },
   {
     "id": 1361,
     "word": "informal",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "gayri resmi, gündelik"
   },
   {
     "id": 1369,
     "word": "injury",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yaralanma, sakatlanma"
   },
   {
     "id": 1373,
     "word": "insect",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "böcek"
   },
   {
     "id": 1383,
     "word": "instruction",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "talimat, yönerge"
   },
   {
     "id": 1384,
     "word": "instructor",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "eğitmen, öğretmen"
   },
   {
     "id": 1405,
     "word": "invent",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "icat etmek"
   },
   {
     "id": 1406,
     "word": "invention",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "icat, buluş"
   },
   {
     "id": 1413,
     "word": "involve",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "içermek, dahil etmek"
   },
   {
     "id": 1424,
     "word": "jam",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "reçel; tıkanıklık"
   },
   {
     "id": 1453,
     "word": "kilometer",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kilometre"
   },
   {
     "id": 1459,
     "word": "knee",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "diz"
   },
   {
     "id": 1481,
     "word": "later",
     "type": "adv. A1, adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "sonra, daha sonra"
   },
   {
     "id": 1500,
     "word": "least",
     "type": "det./pron., adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "en az"
   },
   {
     "id": 1503,
     "word": "lecture",
     "type": "n., v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ders, konferans"
   },
   {
     "id": 1509,
     "word": "lend",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ödünç vermek"
   },
   {
     "id": 1511,
     "word": "less",
     "type": "det./pron., adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "daha az"
   },
   {
     "id": 1527,
     "word": "likely",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "muhtemel, olası"
   },
   {
     "id": 1589,
     "word": "manner",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tarz, davranış biçimi"
   },
   {
     "id": 1612,
     "word": "mayor",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "belediye başkanı"
   },
   {
     "id": 1717,
     "word": "nearly",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "neredeyse, hemen hemen"
   },
   {
     "id": 1720,
     "word": "necessary",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "gerekli, zorunlu"
   },
   {
     "id": 1749,
     "word": "noisy",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "gürültülü"
   },
   {
     "id": 1748,
     "word": "noise",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "gürültü"
   },
   {
     "id": 1765,
     "word": "nowhere",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "hiçbir yer"
   },
   {
     "id": 1808,
     "word": "onto",
     "type": "prep.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "üzerine"
   },
   {
     "id": 1815,
     "word": "opportunity",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "fırsat"
   },
   {
     "id": 1824,
     "word": "ordinary",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "sıradan, olağan"
   },
   {
     "id": 1837,
     "word": "ourselves",
     "type": "pron.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kendimiz"
   },
   {
     "id": 1845,
     "word": "oven",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "fırın"
   },
   {
     "id": 1875,
     "word": "particular",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "belirli, özel"
   },
   {
     "id": 1903,
     "word": "perform",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yapmak, sahnelemek"
   },
   {
     "id": 1905,
     "word": "perhaps",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "belki, olabilir"
   },
   {
     "id": 1947,
     "word": "plate",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tabak"
   },
   {
     "id": 1953,
     "word": "pleased",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "memnun, hoşnut"
   },
   {
     "id": 1973,
     "word": "pollution",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kirlilik"
   },
   {
     "id": 1986,
     "word": "possession",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "mülk, sahiplik"
   },
   {
     "id": 2022,
     "word": "prevent",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "önlemek, engellemek"
   },
   {
     "id": 2085,
     "word": "purpose",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "amaç, maksat"
   },
   {
     "id": 2100,
     "word": "quietly",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "sessizce"
   },
   {
     "id": 2109,
     "word": "railroad",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "demiryolu"
   },
   {
     "id": 2117,
     "word": "rather",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "oldukça; tercihan"
   },
   {
     "id": 2137,
     "word": "recently",
     "type": "adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "son zamanlarda"
   },
   {
     "id": 2136,
     "word": "recent",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "son, yakın zamandaki"
   },
   {
     "id": 2138,
     "word": "reception",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "resepsiyon, kabul"
   },
   {
     "id": 2139,
     "word": "recipe",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tarif, yemek tarifi"
   },
   {
     "id": 2140,
     "word": "recognize",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tanımak, fark etmek"
   },
   {
     "id": 2141,
     "word": "recommend",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tavsiye etmek, önermek"
   },
   {
     "id": 2150,
     "word": "refer",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "atıfta bulunmak"
   },
   {
     "id": 2153,
     "word": "refrigerator",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "buzdolabı"
   },
   {
     "id": 2257,
     "word": "rude",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kaba, saygısız"
   },
   {
     "id": 2269,
     "word": "sailing",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yelken, yelkencilik"
   },
   {
     "id": 2318,
     "word": "seem",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "görünmek, gibi görünmek"
   },
   {
     "id": 2338,
     "word": "serve",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "servis yapmak; hizmet etmek"
   },
   {
     "id": 2363,
     "word": "sheet",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "çarşaf, yaprak"
   },
   {
     "id": 2348,
     "word": "several",
     "type": "det./pron.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "birkaç, çeşitli"
   },
   {
     "id": 2383,
     "word": "shout",
     "type": "v., n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bağırmak"
   },
   {
     "id": 2415,
     "word": "site",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "alan, yer, site"
   },
   {
     "id": 2421,
     "word": "ski",
     "type": "v., n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kayak yapmak"
   },
   {
     "id": 2422,
     "word": "skiing",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kayak"
   },
   {
     "id": 2468,
     "word": "somewhere",
     "type": "adv., pron.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bir yerde, bir yere"
   },
   {
     "id": 2501,
     "word": "spoon",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kaşık"
   },
   {
     "id": 2511,
     "word": "stair",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "merdiven basamağı"
   },
   {
     "id": 2512,
     "word": "stamp",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "pul, damga"
   },
   {
     "id": 2542,
     "word": "stove",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "soba, ocak"
   },
   {
     "id": 2537,
     "word": "stone",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "taş"
   },
   {
     "id": 2540,
     "word": "storm",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "fırtına"
   },
   {
     "id": 2568,
@@ -1659,199 +1927,232 @@
     "id": 2667,
     "word": "themselves",
     "type": "pron.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kendileri"
   },
   {
     "id": 2674,
     "word": "thick",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kalın, yoğun"
   },
   {
     "id": 2592,
     "word": "suppose",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "sanmak, farz etmek"
   },
   {
     "id": 2676,
     "word": "thin",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ince, zayıf"
   },
   {
     "id": 2686,
     "word": "thought",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "düşünce, fikir"
   },
   {
     "id": 2698,
     "word": "tie",
     "type": "v., n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "bağlamak; kravat"
   },
   {
     "id": 2694,
     "word": "throw",
     "type": "v.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "fırlatmak, atmak"
   },
   {
     "id": 2730,
     "word": "toward",
     "type": "prep.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "doğru, yönünde"
   },
   {
     "id": 2731,
     "word": "towel",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "havlu"
   },
   {
     "id": 2749,
     "word": "transportation",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ulaşım, taşımacılık"
   },
   {
     "id": 2781,
     "word": "typical",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "tipik, karakteristik"
   },
   {
     "id": 2791,
     "word": "underground",
     "type": "adj., adv.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "yeraltı"
   },
   {
     "id": 2804,
     "word": "unit",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "birim, ünite"
   },
   {
     "id": 2805,
     "word": "united",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "birleşik"
   },
   {
     "id": 2821,
     "word": "upstairs",
     "type": "adv. A1, adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "üst kata, üst katta"
   },
   {
     "id": 2835,
     "word": "valley",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "vadi"
   },
   {
     "id": 2839,
     "word": "variety",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "çeşitlilik"
   },
   {
     "id": 2924,
     "word": "whose",
     "type": "det./pron.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "kimin"
   },
   {
     "id": 2960,
     "word": "worried",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "endişeli, kaygılı"
   },
   {
     "id": 2951,
     "word": "wood",
     "type": "n.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ahşap, odun"
   },
   {
     "id": 2952,
     "word": "wooden",
     "type": "adj.",
-    "level": "A2"
+    "level": "A2",
+    "meaning": "ahşap, tahtadan"
   },
   {
     "id": 70,
     "word": "ahead",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ileride, önde"
   },
   {
     "id": 109,
     "word": "announce",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "duyurmak, ilan etmek"
   },
   {
     "id": 138,
     "word": "appreciate",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "takdir etmek, değer vermek"
   },
   {
     "id": 174,
     "word": "assignment",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ödev, görev"
   },
   {
     "id": 191,
     "word": "attract",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "çekmek, cezbetmek"
   },
   {
     "id": 192,
     "word": "attraction",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "cazibe, ilgi çekici yer"
   },
   {
     "id": 204,
     "word": "award",
     "type": "n. A2, v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ödül; ödüllendirmek"
   },
   {
     "id": 320,
     "word": "branch",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dal, şube"
   },
   {
     "id": 327,
     "word": "breath",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "nefes"
   },
   {
     "id": 328,
     "word": "breathe",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "nefes almak"
   },
   {
     "id": 329,
     "word": "breathing",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "soluk alma, nefes"
   },
   {
     "id": 330,
     "word": "bride",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "gelin"
   },
   {
     "id": 349,
@@ -1863,895 +2164,1044 @@
     "id": 376,
     "word": "candidate",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "aday"
   },
   {
     "id": 391,
     "word": "careless",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dikkatsiz, özensiz"
   },
   {
     "id": 404,
     "word": "ceiling",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tavan"
   },
   {
     "id": 406,
     "word": "celebration",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kutlama"
   },
   {
     "id": 424,
     "word": "chapter",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "bölüm (kitap)"
   },
   {
     "id": 434,
     "word": "cheerful",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "neşeli, şen"
   },
   {
     "id": 443,
     "word": "childhood",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "çocukluk"
   },
   {
     "id": 461,
     "word": "clause",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "cümlecik, madde"
   },
   {
     "id": 466,
     "word": "clever",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "zeki, akıllı"
   },
   {
     "id": 480,
     "word": "clue",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ipucu"
   },
   {
     "id": 482,
     "word": "coal",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kömür"
   },
   {
     "id": 498,
     "word": "combine",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "birleştirmek"
   },
   {
     "id": 521,
     "word": "competitor",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "rakip"
   },
   {
     "id": 523,
     "word": "complaint",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "şikayet"
   },
   {
     "id": 529,
     "word": "concentrate",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yoğunlaşmak, konsantre olmak"
   },
   {
     "id": 535,
     "word": "conclude",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sonuçlandırmak"
   },
   {
     "id": 536,
     "word": "conclusion",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sonuç, vardığı karar"
   },
   {
     "id": 541,
     "word": "confident",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "özgüvenli, emin"
   },
   {
     "id": 544,
     "word": "confuse",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "karıştırmak, şaşırtmak"
   },
   {
     "id": 552,
     "word": "consequence",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sonuç (olumsuz)"
   },
   {
     "id": 556,
     "word": "consist",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "oluşmak, meydana gelmek"
   },
   {
     "id": 562,
     "word": "consume",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tüketmek"
   },
   {
     "id": 563,
     "word": "consumer",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tüketici"
   },
   {
     "id": 573,
     "word": "continuous",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sürekli, kesintisiz"
   },
   {
     "id": 579,
     "word": "convenient",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "uygun, elverişli"
   },
   {
     "id": 582,
     "word": "convince",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ikna etmek"
   },
   {
     "id": 597,
     "word": "cotton",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "pamuk"
   },
   {
     "id": 602,
     "word": "countryside",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kırsal alan, taşra"
   },
   {
     "id": 607,
     "word": "court",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "mahkeme; kort"
   },
   {
     "id": 609,
     "word": "cover",
     "type": "v. A2, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kaplamak, örtmek"
   },
   {
     "id": 610,
     "word": "covered",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kaplı, örtülü"
   },
   {
     "id": 634,
     "word": "cruel",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "zalim, acımasız"
   },
   {
     "id": 639,
     "word": "cupboard",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dolap, mutfak dolabı"
   },
   {
     "id": 645,
     "word": "curtain",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "perde"
   },
   {
     "id": 671,
     "word": "decade",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "on yıl"
   },
   {
     "id": 686,
     "word": "define",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tanımlamak"
   },
   {
     "id": 687,
     "word": "definite",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kesin, belirli"
   },
   {
     "id": 689,
     "word": "definition",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tanım"
   },
   {
     "id": 702,
     "word": "departure",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kalkış, ayrılış"
   },
   {
     "id": 716,
     "word": "despite",
     "type": "prep.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "rağmen"
   },
   {
     "id": 718,
     "word": "destination",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "varış noktası, hedef"
   },
   {
     "id": 724,
     "word": "determine",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "belirlemek, saptamak"
   },
   {
     "id": 725,
     "word": "determined",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kararlı, azimli"
   },
   {
     "id": 753,
     "word": "disappointed",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hayal kırıklığına uğramış"
   },
   {
     "id": 754,
     "word": "disappointing",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hayal kırıklığı yaratan"
   },
   {
     "id": 750,
     "word": "disadvantage",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dezavantaj, sakınca"
   },
   {
     "id": 766,
     "word": "dislike",
     "type": "v., n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hoşlanmamak, sevmemek"
   },
   {
     "id": 772,
     "word": "district",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ilçe, bölge, semt"
   },
   {
     "id": 787,
     "word": "doubt",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "şüphe; şüphelenmek"
   },
   {
     "id": 815,
     "word": "duty",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "görev, vazife"
   },
   {
     "id": 814,
     "word": "dust",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "toz"
   },
   {
     "id": 812,
     "word": "due",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "vadesi gelen; nedeniyle"
   },
   {
     "id": 809,
     "word": "drum",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "davul"
   },
   {
     "id": 839,
     "word": "effective",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "etkili, verimli"
   },
   {
     "id": 862,
     "word": "embarrassed",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "utanmış, mahcup"
   },
   {
     "id": 863,
     "word": "embarrassing",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "utandırıcı, mahcup edici"
   },
   {
     "id": 877,
     "word": "encourage",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "cesaretlendirmek, teşvik etmek"
   },
   {
     "id": 883,
     "word": "engaged",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "nişanlı; meşgul"
   },
   {
     "id": 905,
     "word": "equally",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "eşit olarak"
   },
   {
     "id": 911,
     "word": "essential",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "temel, zorunlu"
   },
   {
     "id": 921,
     "word": "eventually",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sonunda, en sonunda"
   },
   {
     "id": 935,
     "word": "examine",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "incelemek, muayene etmek"
   },
   {
     "id": 947,
     "word": "exhibition",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sergi"
   },
   {
     "id": 987,
     "word": "fairly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "oldukça, adil şekilde"
   },
   {
     "id": 991,
     "word": "familiar",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tanıdık, aşina"
   },
   {
     "id": 995,
     "word": "fancy",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "süslü, lüks"
   },
   {
     "id": 997,
     "word": "far",
     "type": "adv. A1, adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "uzak; çok"
   },
   {
     "id": 1000,
     "word": "fascinating",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "büyüleyici, harika"
   },
   {
     "id": 1004,
     "word": "fasten",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "bağlamak, tutturmak"
   },
   {
     "id": 1002,
     "word": "fashionable",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "modaya uygun, şık"
   },
   {
     "id": 1021,
     "word": "fence",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "çit, parmaklık"
   },
   {
     "id": 1063,
     "word": "flour",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "un"
   },
   {
     "id": 1061,
     "word": "flood",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sel, taşkın"
   },
   {
     "id": 1064,
     "word": "flow",
     "type": "v., n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "akmak, akış"
   },
   {
     "id": 1072,
     "word": "folk",
     "type": "n., adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "halk, insanlar"
   },
   {
     "id": 1102,
     "word": "frequently",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sık sık"
   },
   {
     "id": 1108,
     "word": "frighten",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "korkutmak"
   },
   {
     "id": 1126,
     "word": "fur",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kürk"
   },
   {
     "id": 1128,
     "word": "further",
     "type": "adj. A2, adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "daha ileri, daha fazla"
   },
   {
     "id": 1146,
     "word": "generous",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "cömert, eli açık"
   },
   {
     "id": 1158,
     "word": "glad",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "memnun, mutlu"
   },
   {
     "id": 1177,
     "word": "grain",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tahıl, tane"
   },
   {
     "id": 1184,
     "word": "grateful",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "minnettar, müteşekkir"
   },
   {
     "id": 1318,
     "word": "imaginary",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hayali, düşsel"
   },
   {
     "id": 1321,
     "word": "immediate",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "acil, ani, hemen"
   },
   {
     "id": 1324,
     "word": "impact",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "etki, darbe"
   },
   {
     "id": 1328,
     "word": "importance",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "önem"
   },
   {
     "id": 1334,
     "word": "impression",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "izlenim, intiba"
   },
   {
     "id": 1335,
     "word": "impressive",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "etkileyici, görkemli"
   },
   {
     "id": 1352,
     "word": "indirect",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dolaylı"
   },
   {
     "id": 1351,
     "word": "indicate",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "göstermek, belirtmek"
   },
   {
     "id": 1367,
     "word": "injure",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yaralamak, sakatlamak"
   },
   {
     "id": 1368,
     "word": "injured",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yaralı, sakatlanmış"
   },
   {
     "id": 1389,
     "word": "intend",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "niyet etmek, planlamak"
   },
   {
     "id": 1392,
     "word": "intention",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "niyet, amaç"
   },
   {
     "id": 1432,
     "word": "journal",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dergi; gazete; günlük"
   },
   {
     "id": 1468,
     "word": "lack",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "eksiklik; yoksunluk"
   },
   {
     "id": 1495,
     "word": "leaf",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yaprak"
   },
   {
     "id": 1501,
     "word": "leather",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "deri"
   },
   {
     "id": 1507,
     "word": "leisure",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "boş vakit, dinlenme"
   },
   {
     "id": 1573,
     "word": "mad",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "deli, çılgın; kızgın"
   },
   {
     "id": 1578,
     "word": "mainly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "esas olarak, başlıca"
   },
   {
     "id": 1618,
     "word": "meanwhile",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "bu arada, bu esnada"
   },
   {
     "id": 1663,
     "word": "mixture",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "karışım"
   },
   {
     "id": 1692,
     "word": "mud",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "çamur"
   },
   {
     "id": 1705,
     "word": "mystery",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "gizem, sır"
   },
   {
     "id": 1706,
     "word": "nail",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "çivi; tırnak"
   },
   {
     "id": 1708,
     "word": "narrative",
     "type": "n., adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "anlatı, hikaye"
   },
   {
     "id": 1718,
     "word": "neat",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "düzenli, temiz"
   },
   {
     "id": 1719,
     "word": "necessarily",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "zorunlu olarak"
   },
   {
     "id": 1723,
     "word": "needle",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "iğne"
   },
   {
     "id": 1722,
     "word": "need",
     "type": "v. A1, n. A2, modal v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ihtiyaç duymak; gerek"
   },
   {
     "id": 1727,
     "word": "neither",
     "type": "det./pron. A2, adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hiçbiri, ne ... ne de"
   },
   {
     "id": 1730,
     "word": "net",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ağ, file"
   },
   {
     "id": 1751,
     "word": "nor",
     "type": "conj./adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ne de"
   },
   {
     "id": 1755,
     "word": "northern",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kuzey, kuzeye ait"
   },
   {
     "id": 1779,
     "word": "obviously",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "açıkça, belli ki"
   },
   {
     "id": 1778,
     "word": "obvious",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "açık, bariz"
   },
   {
     "id": 1780,
     "word": "occasion",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "durum, vesile, fırsat"
   },
   {
     "id": 1848,
     "word": "overseas",
     "type": "adv. A2, adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "denizaşırı, yurt dışında"
   },
   {
     "id": 1782,
     "word": "occur",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "meydana gelmek, olmak"
   },
   {
     "id": 1853,
     "word": "pack",
     "type": "v. A2, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "paketlemek; paket"
   },
   {
     "id": 1840,
     "word": "outdoor",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "açık hava, dış mekan"
   },
   {
     "id": 1841,
     "word": "outdoors",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dışarıda, açık havada"
   },
   {
     "id": 1857,
     "word": "painful",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "acı veren, ağrılı"
   },
   {
     "id": 1863,
     "word": "pale",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "solgun, soluk"
   },
   {
     "id": 1864,
     "word": "pan",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tava"
   },
   {
     "id": 1874,
     "word": "participate",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "katılmak"
   },
   {
     "id": 1876,
     "word": "particularly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "özellikle"
   },
   {
     "id": 1951,
     "word": "pleasant",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hoş, keyifli"
   },
   {
     "id": 1954,
     "word": "pleasure",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "zevk, memnuniyet"
   },
   {
     "id": 1955,
     "word": "plenty",
     "type": "pron.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "bol, çok"
   },
   {
     "id": 1959,
     "word": "poem",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "şiir"
   },
   {
     "id": 1960,
     "word": "poet",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "şair"
   },
   {
     "id": 1965,
     "word": "poisonous",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "zehirli"
   },
   {
     "id": 1964,
     "word": "poison",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "zehir; zehirlemek"
   },
   {
     "id": 1989,
     "word": "possibly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "belki, muhtemelen"
   },
   {
     "id": 1997,
     "word": "poverty",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yoksulluk, fakirlik"
   },
   {
     "id": 1992,
     "word": "pot",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tencere, çömlek"
   },
   {
     "id": 2015,
     "word": "presentation",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sunum"
   },
   {
     "id": 2007,
     "word": "prediction",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tahmin, öngörü"
   },
   {
     "id": 2020,
     "word": "pretend",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "numarasını yapmak"
   },
   {
     "id": 2038,
     "word": "prisoner",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "mahkum, tutuklu"
   },
   {
     "id": 2062,
     "word": "proper",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "uygun, doğru"
   },
   {
     "id": 2063,
     "word": "properly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "düzgün bir şekilde"
   },
   {
     "id": 2064,
     "word": "property",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "mülk, mal; özellik"
   },
   {
     "id": 2090,
     "word": "qualified",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "nitelikli, yetkin"
   },
   {
     "id": 2091,
     "word": "qualify",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hak kazanmak"
   },
   {
     "id": 2103,
     "word": "quotation",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "alıntı"
   },
   {
     "id": 2175,
@@ -2763,529 +3213,617 @@
     "id": 2194,
     "word": "represent",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "temsil etmek"
   },
   {
     "id": 2183,
     "word": "remind",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hatırlatmak"
   },
   {
     "id": 2225,
     "word": "revise",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "gözden geçirmek, tekrar etmek"
   },
   {
     "id": 2243,
     "word": "roll",
     "type": "v., n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yuvarla(n)mak; rulo"
   },
   {
     "id": 2248,
     "word": "rope",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ip, halat"
   },
   {
     "id": 2249,
     "word": "rough",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kaba, pürüzlü; sert"
   },
   {
     "id": 2268,
     "word": "sail",
     "type": "v. A2, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yelken açmak; yelken"
   },
   {
     "id": 2270,
     "word": "sailor",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "denizci, gemici"
   },
   {
     "id": 2277,
     "word": "sand",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kum"
   },
   {
     "id": 2301,
     "word": "sculpture",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "heykel"
   },
   {
     "id": 2337,
     "word": "servant",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hizmetçi"
   },
   {
     "id": 2364,
     "word": "shelf",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "raf"
   },
   {
     "id": 2390,
     "word": "sight",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "görüş, manzara"
   },
   {
     "id": 2365,
     "word": "shell",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kabuk, mermi"
   },
   {
     "id": 2398,
     "word": "silly",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "aptalca, saçma"
   },
   {
     "id": 2401,
     "word": "similarity",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "benzerlik"
   },
   {
     "id": 2402,
     "word": "similarly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "benzer şekilde"
   },
   {
     "id": 2432,
     "word": "slightly",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "biraz, hafifçe"
   },
   {
     "id": 2429,
     "word": "slice",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dilim; dilimlemek"
   },
   {
     "id": 2427,
     "word": "slave",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "köle"
   },
   {
     "id": 2411,
     "word": "sink",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "batmak; lavabo"
   },
   {
     "id": 2405,
     "word": "since",
     "type": "prep., conj. A2, adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "beri; çünkü"
   },
   {
     "id": 2404,
     "word": "simply",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "basitçe, sadece"
   },
   {
     "id": 2456,
     "word": "soil",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "toprak"
   },
   {
     "id": 2499,
     "word": "spoken",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "sözlü, konuşulan"
   },
   {
     "id": 2567,
     "word": "substance",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "madde"
   },
   {
     "id": 2574,
     "word": "sudden",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ani, beklenmedik"
   },
   {
     "id": 2580,
     "word": "suit",
     "type": "n. A2, v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "takım elbise; uymak"
   },
   {
     "id": 2581,
     "word": "suitable",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "uygun, elverişli"
   },
   {
     "id": 2594,
     "word": "surely",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kesinlikle, elbette"
   },
   {
     "id": 2595,
     "word": "surface",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yüzey"
   },
   {
     "id": 2614,
     "word": "symptom",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "belirti, semptom"
   },
   {
     "id": 2618,
     "word": "tail",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kuyruk"
   },
   {
     "id": 2650,
     "word": "tend",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "eğiliminde olmak"
   },
   {
     "id": 2672,
     "word": "therefore",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "bu yüzden, dolayısıyla"
   },
   {
     "id": 2685,
     "word": "though",
     "type": "conj., adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "rağmen, yine de"
   },
   {
     "id": 2693,
     "word": "throughout",
     "type": "prep./adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "boyunca, her tarafında"
   },
   {
     "id": 2699,
     "word": "tight",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dar, sıkı"
   },
   {
     "id": 2748,
     "word": "transport",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "taşımak, nakletmek"
   },
   {
     "id": 2753,
     "word": "treat",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "davranmak; tedavi etmek"
   },
   {
     "id": 2754,
     "word": "treatment",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tedavi, muamele"
   },
   {
     "id": 2758,
     "word": "trick",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "numara, hile"
   },
   {
     "id": 2794,
     "word": "underwear",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "iç çamaşırı"
   },
   {
     "id": 2798,
     "word": "unfair",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "haksız, adaletsiz"
   },
   {
     "id": 2802,
     "word": "union",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "birlik, sendika"
   },
   {
     "id": 2809,
     "word": "unless",
     "type": "conj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "olmadıkça, -medikçe"
   },
   {
     "id": 2810,
     "word": "unlike",
     "type": "prep.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "aksine, farklı olarak"
   },
   {
     "id": 2811,
     "word": "unlikely",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "olası değil"
   },
   {
     "id": 2812,
     "word": "unnecessary",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "gereksiz"
   },
   {
     "id": 2813,
     "word": "unpleasant",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "nahoş, tatsız"
   },
   {
     "id": 2818,
     "word": "upon",
     "type": "prep.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "üzerine, üzerinde"
   },
   {
     "id": 2820,
     "word": "upset",
     "type": "adj., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "üzgün, bozulmuş"
   },
   {
     "id": 2840,
     "word": "various",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "çeşitli, muhtelif"
   },
   {
     "id": 2856,
     "word": "violent",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "şiddetli, saldırgan"
   },
   {
     "id": 2901,
     "word": "weigh",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "tartmak"
   },
   {
     "id": 2909,
     "word": "whatever",
     "type": "det./pron.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "her ne, ne olursa olsun"
   },
   {
     "id": 2912,
     "word": "whenever",
     "type": "conj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "her ne zaman"
   },
   {
     "id": 2916,
     "word": "whether",
     "type": "conj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "olup olmadığını"
   },
   {
     "id": 2945,
     "word": "within",
     "type": "prep.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "içinde, dahilinde"
   },
   {
     "id": 2938,
     "word": "wing",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "kanat"
   },
   {
     "id": 2922,
     "word": "whole",
     "type": "adj. A2, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "bütün, tam"
   },
   {
     "id": 2918,
     "word": "while",
     "type": "conj. A2, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "iken, sırasında"
   },
   {
     "id": 2953,
     "word": "wool",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yün"
   },
   {
     "id": 7,
     "word": "abroad",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yurt dışında"
   },
   {
     "id": 2487,
     "word": "specifically",
     "type": "adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "özellikle, spesifik olarak"
   },
   {
     "id": 2479,
     "word": "southern",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "güney, güneye ait"
   },
   {
     "id": 2505,
     "word": "spring",
     "type": "n. A1, v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ilkbahar; yay; fışkırmak"
   },
   {
     "id": 2522,
     "word": "statue",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "heykel"
   },
   {
     "id": 2530,
     "word": "stick",
     "type": "(push into/attach) v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yapışmak; çubuk, sopa"
   },
   {
     "id": 2531,
     "word": "stick",
     "type": "(piece of wood) n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yapışmak; çubuk, sopa"
   },
   {
     "id": 2549,
     "word": "strength",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "güç, kuvvet"
   },
   {
     "id": 2576,
     "word": "suffer",
     "type": "v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "acı çekmek"
   },
   {
     "id": 2959,
     "word": "worldwide",
     "type": "adj., adv.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dünya çapında"
   },
   {
     "id": 2972,
     "word": "written",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "yazılı"
   },
   {
     "id": 2961,
     "word": "worry",
     "type": "v. A2, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "endişelenmek; endişe"
   },
   {
     "id": 2986,
     "word": "youth",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "gençlik"
   },
   {
     "id": 2982,
     "word": "young",
     "type": "adj. A1, n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "genç"
   },
   {
     "id": 1642,
     "word": "mild",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "hafif, ılıman, yumuşak"
   },
   {
     "id": 1634,
     "word": "mess",
     "type": "n., v.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "dağınıklık, karmaşa"
   },
   {
     "id": 2906,
     "word": "western",
     "type": "adj.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "batı, batıya ait"
   },
   {
     "id": 2709,
     "word": "toe",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "ayak parmağı"
   },
   {
     "id": 2704,
     "word": "tire",
     "type": "n.",
-    "level": "B1"
+    "level": "B1",
+    "meaning": "lastik"
   },
   {
     "id": 52,
     "word": "affair",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "mesele, iş; ilişki"
   },
   {
     "id": 285,
     "word": "bitter",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "acı, kırgın"
   },
   {
     "id": 287,
     "word": "blame",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "suçlamak; suç"
   },
   {
     "id": 326,
     "word": "breast",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "göğüs, meme"
   },
   {
     "id": 336,
     "word": "broad",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "geniş, enli"
   },
   {
     "id": 347,
     "word": "bunch",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "demet, grup"
   },
   {
     "id": 351,
@@ -3303,1164 +3841,1358 @@
     "id": 451,
     "word": "circumstance",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "durum, koşul"
   },
   {
     "id": 452,
     "word": "cite",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "alıntı yapmak, kaynak göstermek"
   },
   {
     "id": 489,
     "word": "collapse",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çökmek; çöküş"
   },
   {
     "id": 508,
     "word": "commitment",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bağlılık, taahhüt"
   },
   {
     "id": 509,
     "word": "committee",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "komite, kurul"
   },
   {
     "id": 538,
     "word": "conduct",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yürütmek; davranış"
   },
   {
     "id": 540,
     "word": "confidence",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "güven, özgüven"
   },
   {
     "id": 530,
     "word": "concentration",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yoğunlaşma, konsantrasyon"
   },
   {
     "id": 551,
     "word": "conscious",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bilinçli, farkında"
   },
   {
     "id": 558,
     "word": "constant",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sürekli, sabit"
   },
   {
     "id": 557,
     "word": "consistent",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tutarlı, istikrarlı"
   },
   {
     "id": 560,
     "word": "construct",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "inşa etmek, kurmak"
   },
   {
     "id": 583,
     "word": "convinced",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ikna olmuş, emin"
   },
   {
     "id": 599,
     "word": "council",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "meclis, konsey"
   },
   {
     "id": 605,
     "word": "courage",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "cesaret, yüreklilik"
   },
   {
     "id": 624,
     "word": "criterion",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ölçüt, kriter"
   },
   {
     "id": 633,
     "word": "crucial",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çok önemli, kritik"
   },
   {
     "id": 640,
     "word": "cure",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tedavi etmek; tedavi"
   },
   {
     "id": 670,
     "word": "debt",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "borç"
   },
   {
     "id": 676,
     "word": "declare",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ilan etmek, beyan etmek"
   },
   {
     "id": 692,
     "word": "deliberate",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kasıtlı, bilinçli"
   },
   {
     "id": 693,
     "word": "deliberately",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kasıtlı olarak, bilerek"
   },
   {
     "id": 698,
     "word": "demonstrate",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "göstermek, kanıtlamak"
   },
   {
     "id": 713,
     "word": "desire",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "arzu; arzulamak"
   },
   {
     "id": 715,
     "word": "desperate",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çaresiz, umutsuz"
   },
   {
     "id": 764,
     "word": "dishonest",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dürüst olmayan"
   },
   {
     "id": 770,
     "word": "distribute",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dağıtmak"
   },
   {
     "id": 771,
     "word": "distribution",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dağıtım"
   },
   {
     "id": 773,
     "word": "divide",
     "type": "v. B1, n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bölmek, ayırmak"
   },
   {
     "id": 774,
     "word": "division",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bölüm, bölünme"
   },
   {
     "id": 792,
     "word": "downward",
     "type": "adj., adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "aşağı doğru"
   },
   {
     "id": 793,
     "word": "dozen",
     "type": "n., det.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "düzine"
   },
   {
     "id": 860,
     "word": "elsewhere",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "başka yerde"
   },
   {
     "id": 849,
     "word": "elect",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "seçmek (oy ile)"
   },
   {
     "id": 869,
     "word": "emphasize",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "vurgulamak"
   },
   {
     "id": 876,
     "word": "encounter",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "karşılaşmak; karşılaşma"
   },
   {
     "id": 882,
     "word": "engage",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "meşgul etmek, dahil etmek"
   },
   {
     "id": 887,
     "word": "enhance",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "geliştirmek, arttırmak"
   },
   {
     "id": 891,
     "word": "ensure",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sağlamak, garanti etmek"
   },
   {
     "id": 912,
     "word": "establish",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kurmak, tesis etmek"
   },
   {
     "id": 914,
     "word": "estimate",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tahmin etmek; tahmin"
   },
   {
     "id": 913,
     "word": "estate",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "emlak, mülk"
   },
   {
     "id": 917,
     "word": "evaluate",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "değerlendirmek"
   },
   {
     "id": 934,
     "word": "examination",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sınav; muayene"
   },
   {
     "id": 944,
     "word": "executive",
     "type": "n., adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yönetici; yönetimle ilgili"
   },
   {
     "id": 943,
     "word": "excuse",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "mazeret; affetmek"
   },
   {
     "id": 946,
     "word": "exhibit",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sergilemek; sergi"
   },
   {
     "id": 949,
     "word": "existence",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "var oluş, varlık"
   },
   {
     "id": 980,
     "word": "facility",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tesis, olanak"
   },
   {
     "id": 975,
     "word": "extraordinary",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "olağanüstü, sıra dışı"
   },
   {
     "id": 972,
     "word": "extent",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "boyut, derece, ölçüde"
   },
   {
     "id": 968,
     "word": "expose",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "açığa çıkarmak, maruz bırakmak"
   },
   {
     "id": 971,
     "word": "extend",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "uzatmak, genişletmek"
   },
   {
     "id": 964,
     "word": "exploration",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "keşif, araştırma"
   },
   {
     "id": 955,
     "word": "expense",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "masraf, gider"
   },
   {
     "id": 953,
     "word": "expectation",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "beklenti"
   },
   {
     "id": 988,
     "word": "faith",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "inanç, güven"
   },
   {
     "id": 1019,
     "word": "fellow",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "arkadaş; aynı gruptaki"
   },
   {
     "id": 1101,
     "word": "frequency",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sıklık, frekans"
   },
   {
     "id": 1123,
     "word": "fundamental",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "temel, esas"
   },
   {
     "id": 1129,
     "word": "furthermore",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ayrıca, üstelik"
   },
   {
     "id": 1131,
     "word": "gain",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kazanmak, elde etmek"
   },
   {
     "id": 1170,
     "word": "govern",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yönetmek, hükmetmek"
   },
   {
     "id": 1172,
     "word": "governor",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "vali, yönetici"
   },
   {
     "id": 1175,
     "word": "gradually",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yavaş yavaş, giderek"
   },
   {
     "id": 1218,
     "word": "harmful",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "zararlı"
   },
   {
     "id": 1234,
     "word": "heaven",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "cennet, gökyüzü"
   },
   {
     "id": 1237,
     "word": "heel",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "topuk"
   },
   {
     "id": 1249,
     "word": "hesitate",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tereddüt etmek, çekinmek"
   },
   {
     "id": 1271,
     "word": "hollow",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "içi boş, oyuk"
   },
   {
     "id": 1287,
     "word": "household",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hane, ev halkı"
   },
   {
     "id": 1288,
     "word": "housing",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "konut, barınma"
   },
   {
     "id": 1319,
     "word": "imagination",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hayal gücü"
   },
   {
     "id": 1325,
     "word": "impatient",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sabırsız"
   },
   {
     "id": 1326,
     "word": "imply",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ima etmek, kastetmek"
   },
   {
     "id": 1330,
     "word": "impose",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dayatmak, yüklemek"
   },
   {
     "id": 1332,
     "word": "impress",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "etkilemek"
   },
   {
     "id": 1333,
     "word": "impressed",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "etkilenmiş"
   },
   {
     "id": 1340,
     "word": "incident",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "olay, vaka"
   },
   {
     "id": 1366,
     "word": "initiative",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "girişim, inisiyatif"
   },
   {
     "id": 1372,
     "word": "inquiry",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "soruşturma, araştırma"
   },
   {
     "id": 1375,
     "word": "insight",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "içgörü, kavrayış"
   },
   {
     "id": 1376,
     "word": "insist",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ısrar etmek"
   },
   {
     "id": 1377,
     "word": "inspire",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ilham vermek, esinlendirmek"
   },
   {
     "id": 1379,
     "word": "instance",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "örnek, durum"
   },
   {
     "id": 1390,
     "word": "intended",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "amaçlanan, kasıtlı"
   },
   {
     "id": 1391,
     "word": "intense",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yoğun, şiddetli"
   },
   {
     "id": 1399,
     "word": "interpret",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yorumlamak, çeviri yapmak"
   },
   {
     "id": 1400,
     "word": "interrupt",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sözünü kesmek, ara vermek"
   },
   {
     "id": 1466,
     "word": "labor",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "emek, işçilik"
   },
   {
     "id": 1556,
     "word": "loose",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "gevşek, bol"
   },
   {
     "id": 1628,
     "word": "melt",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "erimek, eritmek"
   },
   {
     "id": 1709,
     "word": "narrow",
     "type": "adj. A2, v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dar; daraltmak"
   },
   {
     "id": 1728,
     "word": "nerve",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sinir"
   },
   {
     "id": 1768,
     "word": "numerous",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çok sayıda"
   },
   {
     "id": 1774,
     "word": "obligation",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yükümlülük, zorunluluk"
   },
   {
     "id": 1775,
     "word": "observation",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "gözlem"
   },
   {
     "id": 1776,
     "word": "observe",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "gözlemlemek, izlemek"
   },
   {
     "id": 1777,
     "word": "obtain",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "elde etmek, edinmek"
   },
   {
     "id": 1781,
     "word": "occasionally",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ara sıra, zaman zaman"
   },
   {
     "id": 1789,
     "word": "offend",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "gücendirmek, kırmak"
   },
   {
     "id": 1790,
     "word": "offense",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "suç; gücenme"
   },
   {
     "id": 1791,
     "word": "offensive",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "saldırgan, kırıcı"
   },
   {
     "id": 1814,
     "word": "opponent",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "rakip, muhalif"
   },
   {
     "id": 1816,
     "word": "oppose",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "karşı çıkmak"
   },
   {
     "id": 1817,
     "word": "opposed",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "karşı, muhalif"
   },
   {
     "id": 1819,
     "word": "opposition",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "muhalefet, karşıtlık"
   },
   {
     "id": 1833,
     "word": "otherwise",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "aksi halde, yoksa"
   },
   {
     "id": 1839,
     "word": "outcome",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sonuç"
   },
   {
     "id": 1847,
     "word": "overall",
     "type": "adj., adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "genel, toplu"
   },
   {
     "id": 1852,
     "word": "pace",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hız, tempo; adım atmak"
   },
   {
     "id": 1909,
     "word": "permit",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "izin vermek; izin belgesi"
   },
   {
     "id": 1938,
     "word": "pitch",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "saha; perde (ses)"
   },
   {
     "id": 1956,
     "word": "plot",
     "type": "n. B1, v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "olay örgüsü; arsa"
   },
   {
     "id": 1982,
     "word": "pose",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "poz vermek; teşkil etmek"
   },
   {
     "id": 1985,
     "word": "possess",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sahip olmak"
   },
   {
     "id": 2003,
     "word": "praise",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "övmek; övgü"
   },
   {
     "id": 2010,
     "word": "preparation",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hazırlık"
   },
   {
     "id": 2013,
     "word": "presence",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "varlık, mevcudiyet"
   },
   {
     "id": 2016,
     "word": "preserve",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "korumak, muhafaza etmek"
   },
   {
     "id": 2031,
     "word": "principal",
     "type": "n. B1, adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "müdür; başlıca"
   },
   {
     "id": 2032,
     "word": "principle",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ilke, prensip"
   },
   {
     "id": 2067,
     "word": "prospect",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "olasılık, beklenti"
   },
   {
     "id": 2086,
     "word": "pursue",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "peşinden gitmek, takip etmek"
   },
   {
     "id": 2113,
     "word": "rapid",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hızlı, çabuk"
   },
   {
     "id": 2114,
     "word": "rapidly",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hızla, süratle"
   },
   {
     "id": 2145,
     "word": "recover",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "iyileşmek, kurtarmak"
   },
   {
     "id": 2968,
     "word": "wrap",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sarmak, paketlemek"
   },
   {
     "id": 2966,
     "word": "wound",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yara; yaralamak"
   },
   {
     "id": 2947,
     "word": "witness",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tanık; şahit olmak"
   },
   {
     "id": 2942,
     "word": "wise",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bilge, akıllı"
   },
   {
     "id": 2941,
     "word": "wire",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tel, kablo"
   },
   {
     "id": 2932,
     "word": "willing",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "istekli, gönüllü"
   },
   {
     "id": 2927,
     "word": "widely",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yaygın olarak"
   },
   {
     "id": 2930,
     "word": "wildlife",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yaban hayatı"
   },
   {
     "id": 2923,
     "word": "whom",
     "type": "pron.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kimi, kime"
   },
   {
     "id": 2915,
     "word": "wherever",
     "type": "conj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "nereye, her nerede"
   },
   {
     "id": 2914,
     "word": "whereas",
     "type": "conj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "oysa, halbuki"
   },
   {
     "id": 2891,
     "word": "wealthy",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "zengin, varlıklı"
   },
   {
     "id": 2890,
     "word": "wealth",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "servet, zenginlik"
   },
   {
     "id": 2855,
     "word": "violence",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "şiddet"
   },
   {
     "id": 2845,
     "word": "venue",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "mekan, yer"
   },
   {
     "id": 2842,
     "word": "vast",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çok geniş, engin"
   },
   {
     "id": 2841,
     "word": "vary",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "farklılık göstermek"
   },
   {
     "id": 2824,
     "word": "urge",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "teşvik etmek; dürtü"
   },
   {
     "id": 2822,
     "word": "upward",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yukarı doğru"
   },
   {
     "id": 2823,
     "word": "urban",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kentsel, şehre ait"
   },
   {
     "id": 2789,
     "word": "unconscious",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bilinçsiz, baygın"
   },
   {
     "id": 2688,
     "word": "threat",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tehdit"
   },
   {
     "id": 2648,
     "word": "temporary",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "geçici"
   },
   {
     "id": 2620,
     "word": "tale",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "masal, hikaye"
   },
   {
     "id": 2607,
     "word": "sweep",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "süpürmek"
   },
   {
     "id": 2605,
     "word": "swear",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yemin etmek; küfretmek"
   },
   {
     "id": 2600,
     "word": "surround",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çevrelemek, kuşatmak"
   },
   {
     "id": 2601,
     "word": "surrounding",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "çevredeki, etraftaki"
   },
   {
     "id": 2551,
     "word": "stretch",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "germek, uzatmak; esneme"
   },
   {
     "id": 2533,
     "word": "stiff",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sert, katı"
   },
   {
     "id": 2532,
     "word": "sticky",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yapışkan"
   },
   {
     "id": 2516,
     "word": "stare",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "dikkatle bakmak"
   },
   {
     "id": 2525,
     "word": "steady",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sabit, istikrarlı"
   },
   {
     "id": 2498,
     "word": "split",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bölmek, ayırmak"
   },
   {
     "id": 2485,
     "word": "species",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tür (biyoloji)"
   },
   {
     "id": 2467,
     "word": "somewhat",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "bir miktar, biraz"
   },
   {
     "id": 2434,
     "word": "slope",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "eğim, yamaç"
   },
   {
     "id": 2431,
     "word": "slight",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "hafif, önemsiz"
   },
   {
     "id": 2393,
     "word": "significant",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "önemli, anlamlı"
   },
   {
     "id": 2406,
     "word": "sincere",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "samimi, içten"
   },
   {
     "id": 2356,
     "word": "shallow",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sığ, yüzeysel"
   },
   {
     "id": 2349,
     "word": "severe",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "şiddetli, ciddi"
   },
   {
     "id": 2333,
     "word": "sequence",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "sıra, dizi"
   },
   {
     "id": 2327,
     "word": "sense",
     "type": "n. A2, v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "duyu; his; anlam"
   },
   {
     "id": 2317,
     "word": "seek",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "aramak, çabalamak"
   },
   {
     "id": 2262,
     "word": "rural",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kırsal"
   },
   {
     "id": 2256,
     "word": "rubber",
     "type": "n., adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kauçuk, lastik"
   },
   {
     "id": 2255,
     "word": "rub",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ovmak, sürtmek"
   },
   {
     "id": 2174,
     "word": "relevant",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ilgili, alakalı"
   },
   {
     "id": 2176,
     "word": "relief",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "rahatlama, ferahlama"
   },
   {
     "id": 2179,
     "word": "rely",
     "type": "v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "güvenmek, bel bağlamak"
   },
   {
     "id": 2181,
     "word": "remark",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yorum; belirtmek"
   },
   {
     "id": 2195,
     "word": "representative",
     "type": "n., adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "temsilci; temsili"
   },
   {
     "id": 2169,
     "word": "relatively",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "nispeten, görece"
   },
   {
     "id": 2159,
     "word": "regret",
     "type": "v., n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "pişmanlık; pişman olmak"
   },
   {
     "id": 2077,
     "word": "publication",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yayın, yayımlama"
   },
   {
     "id": 2065,
     "word": "proposal",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "teklif, öneri"
   },
   {
     "id": 1733,
     "word": "nevertheless",
     "type": "adv.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "yine de, buna rağmen"
   },
   {
     "id": 1741,
     "word": "nightmare",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kabus"
   },
   {
     "id": 1704,
     "word": "mysterious",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "gizemli, esrarengiz"
   },
   {
     "id": 1382,
     "word": "institution",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "kurum, kuruluş"
   },
   {
     "id": 1381,
     "word": "institute",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "enstitü, kurum"
   },
   {
     "id": 1294,
     "word": "humorous",
     "type": "adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "komik, esprili"
   },
   {
     "id": 1217,
     "word": "harm",
     "type": "n., v.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "zarar; zarar vermek"
   },
   {
     "id": 1147,
     "word": "genre",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "tür (edebiyat/müzik)"
   },
   {
     "id": 1092,
     "word": "forward",
     "type": "adv. A2, adj.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "ileri; ileriye doğru"
   },
   {
     "id": 1090,
     "word": "fortune",
     "type": "n.",
-    "level": "B2"
+    "level": "B2",
+    "meaning": "servet; talih, şans"
   }
 ]

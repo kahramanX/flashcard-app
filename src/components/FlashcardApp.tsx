@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
+import FlipCard from './FlipCard';
 
 function cn(...inputs: (string | undefined | null | false)[]) {
   return twMerge(clsx(inputs));
@@ -199,6 +200,13 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
           >
             Unknown Words
           </Link>
+          <Link 
+            href="/pdf"
+            prefetch={false}
+            className="flex-1 md:flex-none inline-flex items-center justify-center py-2 px-3 bg-red-100 dark:bg-red-900/30 hover:bg-red-200 dark:hover:bg-red-900/50 border border-red-300 dark:border-red-800 transition-colors rounded-none text-red-800 dark:text-red-300 font-medium text-xs sm:text-sm"
+          >
+            PDF
+          </Link>
         </div>
 
         {/* Top Actions (Theme + Last Viewed) */}
@@ -302,25 +310,10 @@ export default function FlashcardApp({ initialWords, initialUnknownIds }: { init
               x: { type: "spring", stiffness: 300, damping: 30 },
               opacity: { duration: 0.2 },
             }}
-            className="flex flex-col items-center justify-center w-full"
+            className="w-full flex justify-center"
+            style={{ perspective: 1000 }}
           >
-            <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black dark:text-white mb-6 sm:mb-10 text-center tracking-normal px-4 sm:px-12">
-              {currentWord.word}
-            </h1>
-            
-            <div className="flex flex-row flex-wrap items-center justify-center gap-2 sm:gap-3 px-4 sm:px-12">
-              <span className="text-lg font-semibold px-4 py-1 bg-gray-100 dark:bg-zinc-900 border border-gray-300 dark:border-zinc-600 text-gray-800 dark:text-gray-200 rounded-none">
-                {currentWord.type}
-              </span>
-              <span className={cn(
-                "text-lg font-bold px-4 py-1 border rounded-none",
-                currentWord.level.includes('C') ? 'bg-red-50 dark:bg-red-900/30 border-red-300 dark:border-red-800 text-red-800 dark:text-red-300' 
-              : currentWord.level.includes('B') ? 'bg-orange-50 dark:bg-orange-900/30 border-orange-300 dark:border-orange-800 text-orange-800 dark:text-orange-300' 
-              : 'bg-green-50 dark:bg-green-900/30 border-green-300 dark:border-green-800 text-green-800 dark:text-green-300'
-              )}>
-                Level: {currentWord.level}
-              </span>
-            </div>
+            <FlipCard currentWord={currentWord} />
           </motion.div>
         </AnimatePresence>
 

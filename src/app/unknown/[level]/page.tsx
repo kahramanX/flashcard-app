@@ -49,6 +49,7 @@ export default async function UnknownLevelPage(props: { params: Promise<{ level:
                       <th className="p-3 font-semibold w-16 text-center border-r border-gray-300 dark:border-zinc-600">No.</th>
                       <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Word</th>
                       <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Type</th>
+                      <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Meaning</th>
                       <th className="p-3 font-semibold w-32 text-center border-r border-gray-300 dark:border-zinc-600">Status</th>
                       <th className="p-3 font-semibold w-12 text-center"></th>
                     </tr>

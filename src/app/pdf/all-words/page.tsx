@@ -19,7 +19,7 @@ export default async function PdfAllWordsPage() {
     grouped[level].push({
       word: wordStr,
       type: w.type || '',
-      meaning: '', // Türkçe anlam sonra eklenecek
+      meaning: (w as any).meaning || '', // We added meaning to the JSON
     });
   });
 

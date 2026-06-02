@@ -72,6 +72,9 @@ export default function WordRow({ word, index }: WordRowProps) {
       <td className={`p-3 border-r border-gray-200 dark:border-zinc-700 ${learned ? 'text-gray-900 dark:text-gray-100' : 'text-gray-800 dark:text-gray-200'}`}>
         {word.type}
       </td>
+      <td className={`p-3 border-r border-gray-200 dark:border-zinc-700 ${learned ? 'text-gray-900 dark:text-gray-100' : 'text-gray-800 dark:text-gray-200'}`}>
+        {word.meaning || ''}
+      </td>
       <td className="p-3 text-center border-r border-gray-200 dark:border-zinc-700">
         <button
           onClick={() => setLearned(!learned)}

@@ -51,6 +51,7 @@ export default async function LevelPage(props: { params: Promise<{ level: string
                       <th className="p-3 font-semibold w-16 text-center border-r border-gray-300 dark:border-zinc-600">No.</th>
                       <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Word</th>
                       <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Type</th>
+                      <th className="p-3 font-semibold border-r border-gray-300 dark:border-zinc-600">Meaning</th>
                       <th className="p-3 font-semibold w-36 text-center">Action</th>
                     </tr>
                   </thead>
@@ -68,6 +69,9 @@ export default async function LevelPage(props: { params: Promise<{ level: string
                         </td>
                         <td className="p-3 border-r border-gray-200 dark:border-zinc-700 text-gray-800 dark:text-gray-200">
                           {word.type}
+                        </td>
+                        <td className="p-3 border-r border-gray-200 dark:border-zinc-700 text-gray-800 dark:text-gray-200">
+                          {(word as any).meaning || ''}
                         </td>
                         <td className="p-2 flex justify-center items-center">
                           <MarkUnknownButton word={word} isInitiallyUnknown={unknownIds.has(word.id)} />

@@ -6,6 +6,18 @@
 
 ## Türkçe
 
+### İlk Çalıştırma ve Kurulum
+Projeyi bilgisayarınızda ilk kez çalıştırmak için aşağıdaki adımları izleyin:
+1. Gerekli bağımlılıkları yükleyin: `npm install`
+2. Uygulamayı geliştirme modunda başlatın: `npm run dev`
+3. Tarayıcınızda `http://localhost:3000` adresine giderek uygulamayı görüntüleyin.
+
+### Ana Kelime Kaynağının Güncellenmesi
+Uygulamanın ana kelime veritabanı `main_vocabulary_source` klasörü içindeki `American_Oxford_3000.pdf` dosyasına dayanmaktadır. Eğer bu PDF dosyasını başka bir kaynak ile değiştirmek veya güncellemek isterseniz, parser/generator script'lerinin yeni yapıya göre uyarlanması gerekebilir.
+
+**Örnek AI Prompt'u (Yeni bir kaynak eklendiğinde AI'a verilecek talimat):**
+> "Projeye `yeni_kaynak.pdf` adında yeni bir kelime listesi ekledim. Bu PDF dosyasını okuyarak kelimeleri ve zorluk seviyelerini (A1-C2) çıkaracak, İngilizce kelimelerin Türkçe anlamlarını bulacak ve bunları uygulamanın mevcut `words.json` ve `meanings.json` yapısına uygun şekilde formatlayacak bir script yazar mısın?"
+
 ### Projenin Amacı
 Bu proje, İngilizce kelime dağarcığını geliştirmek isteyenler için tasarlanmış modern, şık ve kullanımı kolay bir flashcard (kelime kartı) uygulamasıdır. Kullanıcılar İngilizce kelimelerin Türkçe anlamlarını öğrenirken, seviyelerine (A1, A2, B1, B2, C1, C2) göre kelime çalışması yapabilir. Kullanıcı, ezberleyemediği veya bilmediği kelimeleri işaretleyerek bu kelimeleri ayrı bir listede toplayıp üzerine odaklanabilir.
 
@@ -21,6 +33,18 @@ Kelime çalışmasını baştan almak veya bilmediğiniz kelimeleri sıfırlamak
 ---
 
 ## English
+
+### Setup and First Run
+To run the project for the first time on your machine, follow these steps:
+1. Install the required dependencies: `npm install`
+2. Start the development server: `npm run dev`
+3. Open `http://localhost:3000` in your browser to view the application.
+
+### Updating the Main Vocabulary Source
+The main vocabulary database of this app is based on the `American_Oxford_3000.pdf` file located in the `main_vocabulary_source` directory. If you change or update this PDF with a different source, you may need to adjust the parser/generator scripts to match the new PDF's layout.
+
+**Example AI Prompt (Instructions to give to an AI when adding a new source):**
+> "I have added a new vocabulary list named `new_source.pdf` to the project. Could you write a script that reads this PDF to extract the words and their difficulty levels (A1-C2), fetches their Turkish meanings, and formats them to match the application's existing `words.json` and `meanings.json` structures?"
 
 ### Project Purpose
 This project is a modern, elegant, and user-friendly flashcard application designed for users who want to improve their English vocabulary. Users can study English words with their Turkish meanings, categorized by CEFR levels (A1, A2, B1, B2, C1, C2). By marking words they don't know, users can build a personalized "Unknown Words" list to focus their studying efforts effectively.

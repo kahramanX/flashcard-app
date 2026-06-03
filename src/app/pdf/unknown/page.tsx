@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { api } from '@/lib/api';
 import PrintButton from '../PrintButton';
+import PdfDownloadButton from '../PdfDownloadButton';
 
 // Türkçe anlam sözlüğü
 const meanings: Record<string, string> = {
@@ -801,12 +802,13 @@ export default async function PdfUnknownPage() {
           <Link href="/pdf" className="text-sm text-gray-500 hover:text-black transition-colors">
             ← PDF Sayfası
           </Link>
+          <PdfDownloadButton filename="unknown_words.pdf" />
           <PrintButton />
         </div>
       </div>
 
       {/* Printable content */}
-      <div className="px-6 py-4 print:px-2 print:py-0">
+      <div id="pdf-content" className="px-6 py-4 print:px-2 print:py-0">
         {sortedLevels.map(level => (
           <div key={level} className="mb-4 print:mb-2 break-inside-avoid-page">
             {/* Level header */}
